@@ -1,0 +1,1421 @@
+[
+  {
+    "id": "cursor",
+    "name": "Cursor",
+    "description": "AI-first code editor built on VS Code with deep AI integration for code generation.",
+    "category": "ide",
+    "platform": [
+      "windows",
+      "mac",
+      "linux"
+    ],
+    "website": "https://cursor.com",
+    "pricing": "freemium",
+    "features": [
+      "code-completion",
+      "chat",
+      "code-generation",
+      "multi-model"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "windsurf",
+    "name": "Windsurf",
+    "description": "AI-powered IDE by Codeium with Cascade, an agentic AI that works alongside you.",
+    "category": "ide",
+    "platform": [
+      "windows",
+      "mac",
+      "linux"
+    ],
+    "website": "https://windsurf.com",
+    "pricing": "freemium",
+    "features": [
+      "agentic-ai",
+      "code-completion",
+      "cascade",
+      "multi-file-editing"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "zed",
+    "name": "Zed",
+    "description": "High-performance, multiplayer code editor with built-in AI assistant support.",
+    "category": "ide",
+    "platform": [
+      "mac",
+      "linux",
+      "windows"
+    ],
+    "website": "https://zed.dev",
+    "pricing": "free",
+    "features": [
+      "fast",
+      "multiplayer",
+      "ai-assistant",
+      "rust-based"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "antigravity",
+    "name": "Antigravity",
+    "description": "Google's experimental AI-powered IDE for next-generation coding experiences.",
+    "category": "ide",
+    "platform": [
+      "web"
+    ],
+    "website": "https://antigravity.google",
+    "pricing": "free",
+    "features": [
+      "google-ai",
+      "experimental",
+      "web-based",
+      "gemini"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "kiro",
+    "name": "Kiro",
+    "description": "AI-native IDE designed for modern development workflows.",
+    "category": "ide",
+    "platform": [
+      "windows",
+      "mac",
+      "linux"
+    ],
+    "website": "https://kiro.dev",
+    "pricing": "freemium",
+    "features": [
+      "ai-native",
+      "modern-ui",
+      "code-generation",
+      "chat"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "pear",
+    "name": "Pear",
+    "description": "AI coding assistant with deep codebase understanding.",
+    "category": "ide",
+    "platform": [
+      "windows",
+      "mac",
+      "linux"
+    ],
+    "website": "https://www.trypear.ai",
+    "pricing": "freemium",
+    "features": [
+      "codebase-aware",
+      "ai-chat",
+      "code-completion",
+      "context"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "trae",
+    "name": "Trae",
+    "description": "AI-powered development environment for building software faster.",
+    "category": "ide",
+    "platform": [
+      "windows",
+      "mac",
+      "linux"
+    ],
+    "website": "https://www.trae.ai",
+    "pricing": "freemium",
+    "features": [
+      "ai-powered",
+      "code-generation",
+      "productivity",
+      "modern"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "roocode",
+    "name": "Roo Code",
+    "description": "AI coding assistant focused on code understanding and generation.",
+    "category": "ide",
+    "platform": [
+      "windows",
+      "mac",
+      "linux"
+    ],
+    "website": "https://roocode.com",
+    "pricing": "freemium",
+    "features": [
+      "code-understanding",
+      "generation",
+      "multi-model",
+      "chat"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "orchids",
+    "name": "Orchids",
+    "description": "Visual AI-powered app builder for creating applications without code.",
+    "category": "ide",
+    "platform": [
+      "web"
+    ],
+    "website": "https://www.orchids.app",
+    "pricing": "freemium",
+    "features": [
+      "no-code",
+      "visual-builder",
+      "ai-powered",
+      "rapid-prototyping"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "claude-code",
+    "name": "Claude Code",
+    "description": "Anthropic's agentic coding tool that operates directly in your terminal.",
+    "category": "cli",
+    "platform": [
+      "windows",
+      "mac",
+      "linux"
+    ],
+    "website": "https://github.com/anthropics/claude-code",
+    "pricing": "pay-per-use",
+    "features": [
+      "agentic",
+      "terminal",
+      "file-editing",
+      "bash-execution"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "jules",
+    "name": "Jules",
+    "description": "Google's AI coding agent for automated software development tasks.",
+    "category": "cli",
+    "platform": [
+      "web"
+    ],
+    "website": "https://jules.google",
+    "pricing": "free",
+    "features": [
+      "google-ai",
+      "agentic",
+      "automated",
+      "github-integration"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "gemini-cli",
+    "name": "Gemini CLI",
+    "description": "Command-line interface for interacting with Google's Gemini models.",
+    "category": "cli",
+    "platform": [
+      "windows",
+      "mac",
+      "linux"
+    ],
+    "website": "https://geminicli.com",
+    "pricing": "pay-per-use",
+    "features": [
+      "gemini",
+      "terminal",
+      "google-ai",
+      "scripting"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "mistral-vibe",
+    "name": "Mistral Vibe",
+    "description": "Mistral AI's CLI tool for vibe-based coding and development.",
+    "category": "cli",
+    "platform": [
+      "windows",
+      "mac",
+      "linux"
+    ],
+    "website": "https://github.com/mistralai/mistral-vibe",
+    "pricing": "free",
+    "features": [
+      "mistral",
+      "open-source",
+      "vibe-coding",
+      "terminal"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "qwen-code",
+    "name": "Qwen Code",
+    "description": "Alibaba's Qwen-powered CLI for coding assistance.",
+    "category": "cli",
+    "platform": [
+      "windows",
+      "mac",
+      "linux"
+    ],
+    "website": "https://github.com/QwenLM/qwen-code",
+    "pricing": "free",
+    "features": [
+      "qwen",
+      "open-source",
+      "multi-language",
+      "terminal"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "aider",
+    "name": "Aider",
+    "description": "AI pair programming in your terminal. Works with GPT-4, Claude, and local models.",
+    "category": "cli",
+    "platform": [
+      "windows",
+      "mac",
+      "linux"
+    ],
+    "website": "https://aider.chat",
+    "pricing": "free",
+    "features": [
+      "pair-programming",
+      "git-integration",
+      "multi-model",
+      "open-source"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "opencode",
+    "name": "OpenCode",
+    "description": "Open-source AI coding assistant for the terminal.",
+    "category": "cli",
+    "platform": [
+      "windows",
+      "mac",
+      "linux"
+    ],
+    "website": "https://opencode.ai",
+    "pricing": "free",
+    "features": [
+      "open-source",
+      "terminal",
+      "code-generation",
+      "multi-model"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "warp",
+    "name": "Warp",
+    "description": "Modern terminal with AI-powered command suggestions and natural language queries.",
+    "category": "cli",
+    "platform": [
+      "mac",
+      "linux",
+      "windows"
+    ],
+    "website": "https://www.warp.dev",
+    "pricing": "freemium",
+    "features": [
+      "ai-commands",
+      "blocks",
+      "workflows",
+      "collaboration"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "amp",
+    "name": "Amp",
+    "description": "AI-powered coding assistant for amplifying developer productivity.",
+    "category": "cli",
+    "platform": [
+      "windows",
+      "mac",
+      "linux"
+    ],
+    "website": "https://ampcode.com",
+    "pricing": "freemium",
+    "features": [
+      "productivity",
+      "code-generation",
+      "terminal",
+      "ai-powered"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "openai-codex-cli",
+    "name": "OpenAI Codex CLI",
+    "description": "OpenAI's command-line tool for Codex-powered code generation.",
+    "category": "cli",
+    "platform": [
+      "windows",
+      "mac",
+      "linux"
+    ],
+    "website": "https://github.com/openai/codex",
+    "pricing": "pay-per-use",
+    "features": [
+      "codex",
+      "openai",
+      "terminal",
+      "code-generation"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "copilot-cli",
+    "name": "GitHub Copilot CLI",
+    "description": "AI-powered CLI for generating shell commands and explaining code.",
+    "category": "cli",
+    "platform": [
+      "windows",
+      "mac",
+      "linux"
+    ],
+    "website": "https://github.com/github/copilot-cli",
+    "pricing": "subscription",
+    "features": [
+      "shell-commands",
+      "explanations",
+      "git-integration",
+      "terminal"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "augment-cli",
+    "name": "Augment Code CLI",
+    "description": "CLI tool for Augment's AI coding assistance platform.",
+    "category": "cli",
+    "platform": [
+      "windows",
+      "mac",
+      "linux"
+    ],
+    "website": "https://www.augmentcode.com",
+    "pricing": "freemium",
+    "features": [
+      "enterprise",
+      "code-completion",
+      "terminal",
+      "context-aware"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "cline",
+    "name": "Cline",
+    "description": "Autonomous AI coding agent that can use your CLI and editor.",
+    "category": "cli",
+    "platform": [
+      "windows",
+      "mac",
+      "linux"
+    ],
+    "website": "https://cline.bot",
+    "pricing": "free",
+    "features": [
+      "autonomous",
+      "agentic",
+      "multi-tool",
+      "open-source"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "kimi-cli",
+    "name": "Kimi CLI",
+    "description": "Moonshot AI's CLI for Kimi model interactions.",
+    "category": "cli",
+    "platform": [
+      "windows",
+      "mac",
+      "linux"
+    ],
+    "website": "https://github.com/MoonshotAI/kimi-cli",
+    "pricing": "free",
+    "features": [
+      "kimi",
+      "moonshot",
+      "terminal",
+      "long-context"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "mycoder",
+    "name": "MyCoder",
+    "description": "Personal AI coding assistant CLI by DriveCore.",
+    "category": "cli",
+    "platform": [
+      "windows",
+      "mac",
+      "linux"
+    ],
+    "website": "https://github.com/drivecore/mycoder",
+    "pricing": "free",
+    "features": [
+      "personal",
+      "open-source",
+      "terminal",
+      "customizable"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "goose-cli",
+    "name": "Goose",
+    "description": "Block's open-source AI developer agent for the terminal.",
+    "category": "cli",
+    "platform": [
+      "windows",
+      "mac",
+      "linux"
+    ],
+    "website": "https://block.github.io/goose",
+    "pricing": "free",
+    "features": [
+      "open-source",
+      "agentic",
+      "block",
+      "extensible"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "openhands-cli",
+    "name": "OpenHands CLI",
+    "description": "AI-powered development agent in your terminal.",
+    "category": "cli",
+    "platform": [
+      "windows",
+      "mac",
+      "linux"
+    ],
+    "website": "https://openhands.dev",
+    "pricing": "free",
+    "features": [
+      "open-source",
+      "agentic",
+      "autonomous",
+      "terminal"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "chatgpt-atlas",
+    "name": "ChatGPT Atlas",
+    "description": "OpenAI's browser-integrated AI assistant with web capabilities.",
+    "category": "browser",
+    "platform": [
+      "web"
+    ],
+    "website": "https://chatgpt.com/atlas/get-started/",
+    "pricing": "freemium",
+    "features": [
+      "web-browsing",
+      "openai",
+      "research",
+      "chat"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "perplexity-comet",
+    "name": "Perplexity Comet",
+    "description": "Perplexity's AI-powered browser for research and discovery.",
+    "category": "browser",
+    "platform": [
+      "windows",
+      "mac"
+    ],
+    "website": "https://www.perplexity.ai/comet",
+    "pricing": "freemium",
+    "features": [
+      "search",
+      "research",
+      "ai-native",
+      "citations"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "dia",
+    "name": "Dia Browser",
+    "description": "AI-native browser designed for the future of web browsing.",
+    "category": "browser",
+    "platform": [
+      "windows",
+      "mac"
+    ],
+    "website": "https://www.diabrowser.com",
+    "pricing": "freemium",
+    "features": [
+      "ai-native",
+      "modern",
+      "productivity",
+      "chat"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "genspark",
+    "name": "Genspark Browser",
+    "description": "AI-powered browser with intelligent search and browsing features.",
+    "category": "browser",
+    "platform": [
+      "windows",
+      "mac"
+    ],
+    "website": "https://www.genspark.ai/browser",
+    "pricing": "free",
+    "features": [
+      "ai-search",
+      "intelligent",
+      "research",
+      "productivity"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "edge-copilot",
+    "name": "Edge Copilot Mode",
+    "description": "Microsoft Edge's dedicated Copilot browsing experience.",
+    "category": "browser",
+    "platform": [
+      "windows",
+      "mac",
+      "linux"
+    ],
+    "website": "https://www.microsoft.com/en-us/edge/copilot-mode",
+    "pricing": "free",
+    "features": [
+      "copilot",
+      "microsoft",
+      "integrated",
+      "ai-powered"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "opera-neon",
+    "name": "Opera Neon",
+    "description": "Opera's experimental AI-enhanced browser concept.",
+    "category": "browser",
+    "platform": [
+      "windows",
+      "mac"
+    ],
+    "website": "https://www.operaneon.com",
+    "pricing": "free",
+    "features": [
+      "experimental",
+      "ai-features",
+      "modern-ui",
+      "innovative"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "browser-use",
+    "name": "Browser Use",
+    "description": "AI agent framework for browser automation and web interaction.",
+    "category": "browser",
+    "platform": [
+      "web"
+    ],
+    "website": "https://browser-use.com",
+    "pricing": "free",
+    "features": [
+      "automation",
+      "agentic",
+      "web-interaction",
+      "open-source"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "fellou",
+    "name": "Fellou",
+    "description": "AI-powered browser companion for enhanced web experiences.",
+    "category": "browser",
+    "platform": [
+      "windows",
+      "mac"
+    ],
+    "website": "https://fellou.ai",
+    "pricing": "freemium",
+    "features": [
+      "companion",
+      "ai-powered",
+      "browsing",
+      "assistant"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "ecosia-ai",
+    "name": "Ecosia AI Search",
+    "description": "Eco-friendly search engine with AI-powered features.",
+    "category": "browser",
+    "platform": [
+      "web",
+      "mobile"
+    ],
+    "website": "https://www.ecosia.org/ai-search",
+    "pricing": "free",
+    "features": [
+      "eco-friendly",
+      "ai-search",
+      "trees",
+      "privacy"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "avante-nvim",
+    "name": "Avante.nvim",
+    "description": "Neovim plugin for AI-powered code assistance.",
+    "category": "plugin",
+    "platform": [
+      "windows",
+      "mac",
+      "linux"
+    ],
+    "website": "https://github.com/yetone/avante.nvim",
+    "pricing": "free",
+    "features": [
+      "neovim",
+      "open-source",
+      "ai-assistant",
+      "lua"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "kilo",
+    "name": "Kilo Code",
+    "description": "AI coding assistant plugin for various IDEs.",
+    "category": "plugin",
+    "platform": [
+      "windows",
+      "mac",
+      "linux"
+    ],
+    "website": "https://kilo.ai",
+    "pricing": "freemium",
+    "features": [
+      "multi-ide",
+      "code-completion",
+      "chat",
+      "context-aware"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "augment-plugin",
+    "name": "Augment Code",
+    "description": "Enterprise AI coding assistant with deep codebase understanding.",
+    "category": "plugin",
+    "platform": [
+      "windows",
+      "mac",
+      "linux"
+    ],
+    "website": "https://www.augmentcode.com",
+    "pricing": "freemium",
+    "features": [
+      "enterprise",
+      "codebase-aware",
+      "context",
+      "security"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "tabnine-nvim",
+    "name": "Tabnine Neovim",
+    "description": "AI code completion plugin for Neovim.",
+    "category": "plugin",
+    "platform": [
+      "windows",
+      "mac",
+      "linux"
+    ],
+    "website": "https://github.com/codota/tabnine-nvim",
+    "pricing": "freemium",
+    "features": [
+      "neovim",
+      "code-completion",
+      "privacy",
+      "fast"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "amazon-q",
+    "name": "Amazon Q Developer",
+    "description": "AWS's AI-powered developer assistant plugin.",
+    "category": "plugin",
+    "platform": [
+      "windows",
+      "mac",
+      "linux"
+    ],
+    "website": "https://aws.amazon.com/q/developer/",
+    "pricing": "freemium",
+    "features": [
+      "aws",
+      "enterprise",
+      "code-completion",
+      "security"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "continue-plugin",
+    "name": "Continue",
+    "description": "Open-source AI code assistant for VS Code and JetBrains.",
+    "category": "plugin",
+    "platform": [
+      "windows",
+      "mac",
+      "linux"
+    ],
+    "website": "https://github.com/continuedev/continue",
+    "pricing": "free",
+    "features": [
+      "open-source",
+      "multi-model",
+      "vscode",
+      "jetbrains"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "rabbit-r1",
+    "name": "Rabbit R1",
+    "description": "Standalone AI device with Large Action Model for task automation.",
+    "category": "physical",
+    "platform": [
+      "hardware"
+    ],
+    "website": "https://www.rabbit.tech/rabbit-r1",
+    "pricing": "paid",
+    "features": [
+      "standalone",
+      "lam",
+      "portable",
+      "voice"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "friend-pendant",
+    "name": "Friend Pendant",
+    "description": "Wearable AI companion that listens and assists throughout your day.",
+    "category": "physical",
+    "platform": [
+      "hardware"
+    ],
+    "website": "https://friend.com/?page=hardware",
+    "pricing": "paid",
+    "features": [
+      "wearable",
+      "always-on",
+      "voice",
+      "companion"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "pickle",
+    "name": "Pickle",
+    "description": "AI-powered hardware device for personal assistance.",
+    "category": "physical",
+    "platform": [
+      "hardware"
+    ],
+    "website": "https://pickle.com",
+    "pricing": "paid",
+    "features": [
+      "portable",
+      "ai-assistant",
+      "voice",
+      "personal"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "devin",
+    "name": "Devin",
+    "description": "Cognition's autonomous AI software engineer.",
+    "category": "agent",
+    "platform": [
+      "web"
+    ],
+    "website": "https://app.devin.ai",
+    "pricing": "paid",
+    "features": [
+      "autonomous",
+      "software-engineer",
+      "full-stack",
+      "agentic"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "v0",
+    "name": "v0",
+    "description": "Vercel's AI-powered UI generation and design tool.",
+    "category": "agent",
+    "platform": [
+      "web"
+    ],
+    "website": "https://v0.app",
+    "pricing": "freemium",
+    "features": [
+      "ui-generation",
+      "react",
+      "vercel",
+      "design"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "lovable",
+    "name": "Lovable",
+    "description": "AI app builder for creating full-stack applications.",
+    "category": "agent",
+    "platform": [
+      "web"
+    ],
+    "website": "https://lovable.dev",
+    "pricing": "freemium",
+    "features": [
+      "full-stack",
+      "app-builder",
+      "ai-powered",
+      "rapid"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "bolt",
+    "name": "Bolt",
+    "description": "StackBlitz's AI-powered full-stack app builder.",
+    "category": "agent",
+    "platform": [
+      "web"
+    ],
+    "website": "https://bolt.new",
+    "pricing": "freemium",
+    "features": [
+      "full-stack",
+      "instant",
+      "webcontainer",
+      "ai-builder"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "replit-agent",
+    "name": "Replit Agent",
+    "description": "AI agent that can build and deploy apps on Replit.",
+    "category": "agent",
+    "platform": [
+      "web"
+    ],
+    "website": "https://replit.com",
+    "pricing": "freemium",
+    "features": [
+      "cloud-ide",
+      "deployment",
+      "collaborative",
+      "agentic"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "manus",
+    "name": "Manus",
+    "description": "General-purpose AI agent for complex task automation.",
+    "category": "agent",
+    "platform": [
+      "web"
+    ],
+    "website": "https://manus.im",
+    "pricing": "paid",
+    "features": [
+      "general-purpose",
+      "autonomous",
+      "task-automation",
+      "agentic"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "factory",
+    "name": "Factory",
+    "description": "AI-powered software development automation platform.",
+    "category": "agent",
+    "platform": [
+      "web"
+    ],
+    "website": "https://factory.ai",
+    "pricing": "enterprise",
+    "features": [
+      "enterprise",
+      "automation",
+      "droids",
+      "software-factory"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "agent-zero",
+    "name": "Agent Zero",
+    "description": "Open-source framework for building autonomous AI agents.",
+    "category": "agent",
+    "platform": [
+      "web"
+    ],
+    "website": "https://agent-zero.ai",
+    "pricing": "free",
+    "features": [
+      "open-source",
+      "framework",
+      "autonomous",
+      "customizable"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "eden",
+    "name": "Eden",
+    "description": "AI agent platform for automated software development.",
+    "category": "agent",
+    "platform": [
+      "web"
+    ],
+    "website": "https://beta.eden.so",
+    "pricing": "freemium",
+    "features": [
+      "automated",
+      "development",
+      "agentic",
+      "beta"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "zo",
+    "name": "Zo Computer",
+    "description": "AI-powered computer agent for desktop automation.",
+    "category": "agent",
+    "platform": [
+      "web"
+    ],
+    "website": "https://www.zo.computer",
+    "pricing": "freemium",
+    "features": [
+      "computer-use",
+      "automation",
+      "desktop",
+      "agentic"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "skywork",
+    "name": "Skywork AI",
+    "description": "AI agent platform for enterprise automation.",
+    "category": "agent",
+    "platform": [
+      "web"
+    ],
+    "website": "https://skywork.ai",
+    "pricing": "enterprise",
+    "features": [
+      "enterprise",
+      "automation",
+      "workflows",
+      "agentic"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "phoenix",
+    "name": "Phoenix",
+    "description": "AI-powered app development with instant deployment.",
+    "category": "agent",
+    "platform": [
+      "web"
+    ],
+    "website": "https://phoenix.new",
+    "pricing": "freemium",
+    "features": [
+      "instant",
+      "deployment",
+      "ai-builder",
+      "rapid"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "daytona",
+    "name": "Daytona",
+    "description": "AI-powered development environment management.",
+    "category": "agent",
+    "platform": [
+      "web"
+    ],
+    "website": "https://www.daytona.io",
+    "pricing": "freemium",
+    "features": [
+      "dev-environments",
+      "automation",
+      "standardized",
+      "enterprise"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "greptile",
+    "name": "Greptile",
+    "description": "AI that understands your entire codebase for code search and Q&A.",
+    "category": "agent",
+    "platform": [
+      "web"
+    ],
+    "website": "https://www.greptile.com",
+    "pricing": "freemium",
+    "features": [
+      "codebase-search",
+      "qa",
+      "understanding",
+      "enterprise"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "morph",
+    "name": "Morph",
+    "description": "AI-powered data analysis and transformation platform.",
+    "category": "agent",
+    "platform": [
+      "web"
+    ],
+    "website": "https://www.morphllm.com",
+    "pricing": "freemium",
+    "features": [
+      "data-analysis",
+      "transformation",
+      "ai-powered",
+      "analytics"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "command",
+    "name": "Command",
+    "description": "AI-powered command execution and automation platform.",
+    "category": "agent",
+    "platform": [
+      "web"
+    ],
+    "website": "https://command.new",
+    "pricing": "freemium",
+    "features": [
+      "commands",
+      "automation",
+      "ai-powered",
+      "instant"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "create-xyz",
+    "name": "Create.xyz",
+    "description": "AI-powered app creation platform.",
+    "category": "agent",
+    "platform": [
+      "web"
+    ],
+    "website": "https://www.create.xyz",
+    "pricing": "freemium",
+    "features": [
+      "app-creation",
+      "ai-builder",
+      "no-code",
+      "rapid"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "softgen",
+    "name": "Softgen",
+    "description": "AI software generation platform for rapid development.",
+    "category": "agent",
+    "platform": [
+      "web"
+    ],
+    "website": "https://softgen.ai",
+    "pricing": "freemium",
+    "features": [
+      "software-generation",
+      "rapid",
+      "ai-powered",
+      "automated"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "dyad",
+    "name": "Dyad",
+    "description": "AI-powered collaborative development environment.",
+    "category": "agent",
+    "platform": [
+      "web"
+    ],
+    "website": "https://www.dyad.sh",
+    "pricing": "freemium",
+    "features": [
+      "collaborative",
+      "development",
+      "ai-powered",
+      "pair-programming"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "tempo",
+    "name": "Tempo",
+    "description": "AI-powered React component builder.",
+    "category": "agent",
+    "platform": [
+      "web"
+    ],
+    "website": "https://www.tempo.new",
+    "pricing": "freemium",
+    "features": [
+      "react",
+      "components",
+      "ai-builder",
+      "visual"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "heroui-chat",
+    "name": "HeroUI Chat",
+    "description": "AI-powered UI component generation through chat.",
+    "category": "agent",
+    "platform": [
+      "web"
+    ],
+    "website": "https://heroui.chat",
+    "pricing": "freemium",
+    "features": [
+      "ui-generation",
+      "chat",
+      "components",
+      "ai-powered"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "rocket",
+    "name": "Rocket",
+    "description": "AI-powered rapid application development.",
+    "category": "agent",
+    "platform": [
+      "web"
+    ],
+    "website": "https://www.rocket.new",
+    "pricing": "freemium",
+    "features": [
+      "rapid",
+      "development",
+      "ai-powered",
+      "instant"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "superdesign",
+    "name": "Superdesign",
+    "description": "AI-powered design and development platform.",
+    "category": "agent",
+    "platform": [
+      "web"
+    ],
+    "website": "https://app.superdesign.dev",
+    "pricing": "freemium",
+    "features": [
+      "design",
+      "development",
+      "ai-powered",
+      "visual"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "semgrep",
+    "name": "Semgrep",
+    "description": "AI-powered code security and analysis platform.",
+    "category": "agent",
+    "platform": [
+      "web"
+    ],
+    "website": "https://semgrep.dev",
+    "pricing": "freemium",
+    "features": [
+      "security",
+      "code-analysis",
+      "sast",
+      "enterprise"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "uipath",
+    "name": "UiPath",
+    "description": "Enterprise AI-powered automation and RPA platform.",
+    "category": "agent",
+    "platform": [
+      "web"
+    ],
+    "website": "https://www.uipath.com",
+    "pricing": "enterprise",
+    "features": [
+      "rpa",
+      "automation",
+      "enterprise",
+      "ai-powered"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "atoms",
+    "name": "Atoms",
+    "description": "AI-powered component library and design system builder.",
+    "category": "agent",
+    "platform": [
+      "web"
+    ],
+    "website": "https://atoms.dev",
+    "pricing": "freemium",
+    "features": [
+      "components",
+      "design-system",
+      "ai-powered",
+      "library"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "gamma",
+    "name": "Gamma",
+    "description": "AI-powered presentation and document creation.",
+    "category": "agent",
+    "platform": [
+      "web"
+    ],
+    "website": "https://gamma.app",
+    "pricing": "freemium",
+    "features": [
+      "presentations",
+      "documents",
+      "ai-powered",
+      "design"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "trickle",
+    "name": "Trickle",
+    "description": "AI-powered workflow and app automation.",
+    "category": "agent",
+    "platform": [
+      "web"
+    ],
+    "website": "https://trickle.so",
+    "pricing": "freemium",
+    "features": [
+      "workflows",
+      "automation",
+      "ai-powered",
+      "no-code"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "n8n",
+    "name": "n8n",
+    "description": "Open-source workflow automation platform with AI capabilities.",
+    "category": "agent",
+    "platform": [
+      "web",
+      "self-hosted"
+    ],
+    "website": "https://n8n.io",
+    "pricing": "freemium",
+    "features": [
+      "workflow-automation",
+      "integrations",
+      "open-source",
+      "ai-nodes"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "character",
+    "name": "Character AI",
+    "description": "Platform for interactive conversations with AI-powered characters, roleplay, and custom character creation.",
+    "category": "agent",
+    "platform": [
+      "web",
+      "ios",
+      "android"
+    ],
+    "website": "https://character.ai",
+    "pricing": "freemium",
+    "features": [
+      "ai-characters",
+      "roleplay",
+      "custom-creation",
+      "voice-chat"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "capacity",
+    "name": "Capacity",
+    "description": "AI-powered platform for building full-stack web apps with a spec-first approach and multi-model support.",
+    "category": "agent",
+    "platform": [
+      "web"
+    ],
+    "website": "https://capacity.so",
+    "pricing": "freemium",
+    "features": [
+      "full-stack",
+      "spec-first",
+      "multi-model",
+      "code-ownership"
+    ],
+    "status": "alive"
+  }
+]

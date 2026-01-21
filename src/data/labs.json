@@ -1,0 +1,1125 @@
+[
+  {
+    "id": "openai",
+    "name": "OpenAI",
+    "description": "AI research company focused on developing safe and beneficial artificial general intelligence. Creator of ChatGPT and the GPT series.",
+    "headquarters": {
+      "city": "San Francisco",
+      "country": "USA"
+    },
+    "founded": 2015,
+    "website": "https://openai.com",
+    "chat": "https://chat.openai.com",
+    "modelsPage": "https://platform.openai.com/docs/models",
+    "flagship": "GPT-5.2",
+    "modelFamilies": ["GPT", "o-series", "gpt-oss", "DALL-E", "Whisper"],
+    "notableModels": ["GPT-5.2", "o3", "o4-mini", "GPT-4.1", "gpt-oss-120B"],
+    "openSource": "partial",
+    "openSourceNote": "gpt-oss models are open-weight",
+    "apiAvailable": true,
+    "focus": ["general-purpose", "reasoning", "multimodal", "coding"],
+    "tier": 1
+  },
+  {
+    "id": "anthropic",
+    "name": "Anthropic",
+    "description": "AI safety company building reliable, interpretable, and steerable AI systems. Known for Constitutional AI approach.",
+    "headquarters": {
+      "city": "San Francisco",
+      "country": "USA"
+    },
+    "founded": 2021,
+    "website": "https://anthropic.com",
+    "chat": "https://claude.ai",
+    "modelsPage": "https://docs.anthropic.com/en/docs/about-claude/models",
+    "flagship": "Claude Opus 4.5",
+    "modelFamilies": ["Claude"],
+    "notableModels": [
+      "Claude Opus 4.5",
+      "Claude 4.5 Sonnet",
+      "Claude 4.5 Haiku",
+      "Claude 4.1 Opus",
+      "Claude 3.7 Sonnet"
+    ],
+    "openSource": false,
+    "apiAvailable": true,
+    "focus": ["safety", "reasoning", "coding", "long-context"],
+    "tier": 1
+  },
+  {
+    "id": "google",
+    "name": "Google DeepMind",
+    "description": "Google's primary AI research lab, formed from the merger of Google Brain and DeepMind. Develops Gemini models.",
+    "headquarters": {
+      "city": "London / Mountain View",
+      "country": "UK / USA"
+    },
+    "founded": 2023,
+    "foundedNote": "Merger of DeepMind (2010) and Google Brain (2011)",
+    "website": "https://deepmind.google",
+    "chat": "https://gemini.google.com",
+    "modelsPage": "https://ai.google.dev/gemini-api/docs/models/gemini",
+    "flagship": "Gemini 3 Pro",
+    "modelFamilies": ["Gemini", "Gemma", "Gemma 3n"],
+    "notableModels": [
+      "Gemini 3 Pro",
+      "Gemini 3 Flash",
+      "Gemini 2.5 Pro",
+      "Gemma 3 27B",
+      "Gemma 3n E4B"
+    ],
+    "openSource": "partial",
+    "openSourceNote": "Gemma models are open-weight",
+    "apiAvailable": true,
+    "focus": ["multimodal", "reasoning", "long-context", "efficiency"],
+    "tier": 1
+  },
+  {
+    "id": "meta",
+    "name": "Meta AI",
+    "description": "Meta's AI research division, known for releasing open-weight Llama models that have become foundational for the open-source community.",
+    "headquarters": {
+      "city": "Menlo Park",
+      "country": "USA"
+    },
+    "founded": 2013,
+    "website": "https://ai.meta.com",
+    "modelsPage": "https://llama.meta.com",
+    "flagship": "Llama 4 Behemoth",
+    "modelFamilies": ["Llama", "Code Llama"],
+    "notableModels": ["Llama 4 Maverick", "Llama 4 Scout", "Llama 3.3 70B"],
+    "openSource": true,
+    "openSourceNote": "Open weights with permissive license",
+    "apiAvailable": false,
+    "apiNote": "Available through third-party providers",
+    "focus": ["open-source", "efficiency", "multilingual"],
+    "tier": 1
+  },
+  {
+    "id": "deepseek",
+    "name": "DeepSeek",
+    "description": "Chinese AI lab known for highly efficient models that rival frontier labs at a fraction of the cost. Pioneered MoE architectures at scale.",
+    "headquarters": {
+      "city": "Hangzhou",
+      "country": "China"
+    },
+    "founded": 2023,
+    "website": "https://www.deepseek.com",
+    "chat": "https://chat.deepseek.com",
+    "modelsPage": "https://platform.deepseek.com/api-docs",
+    "flagship": "DeepSeek V3.2",
+    "modelFamilies": [
+      "DeepSeek-V",
+      "DeepSeek-R",
+      "DeepSeek-Coder",
+      "DeepSeek-OCR"
+    ],
+    "notableModels": [
+      "DeepSeek V3.2",
+      "DeepSeek R1 0528",
+      "DeepSeek V3.1 Terminus",
+      "DeepSeek-OCR"
+    ],
+    "openSource": true,
+    "apiAvailable": true,
+    "focus": ["efficiency", "reasoning", "coding", "open-source"],
+    "tier": 1
+  },
+  {
+    "id": "xai",
+    "name": "xAI",
+    "description": "Elon Musk's AI company focused on understanding the universe. Develops Grok models with real-time X (Twitter) integration.",
+    "headquarters": {
+      "city": "San Francisco",
+      "country": "USA"
+    },
+    "founded": 2023,
+    "website": "https://x.ai",
+    "chat": "https://grok.com",
+    "modelsPage": "https://docs.x.ai/docs",
+    "flagship": "Grok 4.1",
+    "modelFamilies": ["Grok"],
+    "notableModels": [
+      "Grok 4.1 Fast",
+      "Grok 4",
+      "Grok 3",
+      "Grok Code Fast 1",
+      "Grok 2"
+    ],
+    "openSource": "partial",
+    "openSourceNote": "Grok-1 and Grok 2 are open-weight",
+    "apiAvailable": true,
+    "focus": ["reasoning", "real-time-knowledge", "coding"],
+    "tier": 1
+  },
+  {
+    "id": "mistral",
+    "name": "Mistral AI",
+    "description": "French AI startup known for efficient, high-performance open-weight models. Founded by ex-Meta and Google DeepMind researchers.",
+    "headquarters": {
+      "city": "Paris",
+      "country": "France"
+    },
+    "founded": 2023,
+    "website": "https://mistral.ai",
+    "chat": "https://chat.mistral.ai",
+    "modelsPage": "https://docs.mistral.ai/getting-started/models/",
+    "flagship": "Mistral Medium 3.1",
+    "modelFamilies": [
+      "Mistral",
+      "Mixtral",
+      "Devstral",
+      "Ministral",
+      "Magistral",
+      "Pixtral"
+    ],
+    "notableModels": [
+      "Mistral Medium 3.1",
+      "Mistral Large 3",
+      "Devstral 2",
+      "Magistral Medium 1.2",
+      "Ministral 3 14B"
+    ],
+    "openSource": "partial",
+    "openSourceNote": "Most models are open-weight",
+    "apiAvailable": true,
+    "focus": ["efficiency", "multilingual", "coding", "open-source"],
+    "tier": 2
+  },
+  {
+    "id": "alibaba",
+    "name": "Alibaba",
+    "description": "Alibaba Cloud's AI team developing the Qwen series. Known for strong multilingual and coding capabilities.",
+    "headquarters": {
+      "city": "Hangzhou",
+      "country": "China"
+    },
+    "founded": 2023,
+    "foundedNote": "Qwen team formed 2023, Alibaba DAMO Academy since 2017",
+    "website": "https://qwenlm.github.io",
+    "chat": "https://chat.qwen.ai",
+    "modelsPage": "https://huggingface.co/Qwen",
+    "flagship": "Qwen3 Max",
+    "modelFamilies": ["Qwen", "QwQ", "Qwen3 Coder", "Qwen3 VL", "Qwen3 Omni"],
+    "notableModels": [
+      "Qwen3 Max",
+      "Qwen3 Coder 480B",
+      "Qwen3 VL 235B",
+      "Qwen3 Next 80B",
+      "QwQ 32B"
+    ],
+    "openSource": true,
+    "apiAvailable": true,
+    "focus": ["multilingual", "coding", "reasoning", "open-source"],
+    "tier": 2
+  },
+  {
+    "id": "cohere",
+    "name": "Cohere",
+    "description": "Enterprise-focused AI company specializing in NLP for business applications. Known for RAG and embedding models.",
+    "headquarters": {
+      "city": "Toronto",
+      "country": "Canada"
+    },
+    "founded": 2019,
+    "website": "https://cohere.com",
+    "chat": "https://coral.cohere.com",
+    "modelsPage": "https://docs.cohere.com/docs/models",
+    "flagship": "Command A",
+    "modelFamilies": ["Command", "Aya", "Embed", "Rerank"],
+    "notableModels": ["Command-R+", "Command A", "Aya Expanse"],
+    "openSource": "partial",
+    "openSourceNote": "Aya models are open-weight",
+    "apiAvailable": true,
+    "focus": ["enterprise", "RAG", "multilingual", "embeddings"],
+    "tier": 2
+  },
+  {
+    "id": "ai21",
+    "name": "AI21 Labs",
+    "description": "Israeli AI company pioneering Mamba/SSM architectures with their Jamba models. Focus on enterprise NLP.",
+    "headquarters": {
+      "city": "Tel Aviv",
+      "country": "Israel"
+    },
+    "founded": 2017,
+    "website": "https://www.ai21.com",
+    "chat": "https://studio.ai21.com",
+    "modelsPage": "https://docs.ai21.com/docs/models-overview",
+    "flagship": "Jamba 1.7 Large",
+    "modelFamilies": ["Jamba"],
+    "notableModels": ["Jamba 1.7 Large", "Jamba 1.6 Mini", "Jamba Reasoning"],
+    "openSource": "partial",
+    "apiAvailable": true,
+    "focus": ["enterprise", "hybrid-architectures", "long-context"],
+    "tier": 2
+  },
+  {
+    "id": "amazon",
+    "name": "Amazon",
+    "description": "Amazon's AI division developing Nova models for AWS Bedrock. Focus on enterprise cloud AI services.",
+    "headquarters": {
+      "city": "Seattle",
+      "country": "USA"
+    },
+    "founded": 2023,
+    "foundedNote": "Nova models launched 2024",
+    "website": "https://aws.amazon.com/ai",
+    "chat": "https://aws.amazon.com/bedrock",
+    "modelsPage": "https://aws.amazon.com/bedrock",
+    "flagship": "Nova 2.0 Pro",
+    "modelFamilies": ["Nova", "Titan"],
+    "notableModels": [
+      "Nova 2.0 Pro",
+      "Nova 2.0 Omni",
+      "Nova 2.0 Lite",
+      "Nova Premier"
+    ],
+    "openSource": false,
+    "apiAvailable": true,
+    "apiNote": "Via AWS Bedrock",
+    "focus": ["enterprise", "multimodal", "cloud"],
+    "tier": 2
+  },
+  {
+    "id": "microsoft",
+    "name": "Microsoft",
+    "description": "Microsoft's AI research developing efficient Phi models. Also provides Azure OpenAI services.",
+    "headquarters": {
+      "city": "Redmond",
+      "country": "USA"
+    },
+    "founded": 1991,
+    "foundedNote": "Microsoft Research founded 1991",
+    "website": "https://www.microsoft.com/en-us/research/lab/ai-frontiers/",
+    "modelsPage": "https://azure.microsoft.com/en-us/products/phi",
+    "flagship": "Phi-4 Multimodal",
+    "modelFamilies": ["Phi"],
+    "notableModels": ["Phi-4 Multimodal", "Phi-4 Mini", "Phi-4", "Phi-3 Mini"],
+    "openSource": true,
+    "openSourceNote": "Phi models are open-weight",
+    "apiAvailable": true,
+    "focus": ["efficiency", "small-models", "on-device", "reasoning"],
+    "tier": 2
+  },
+  {
+    "id": "nvidia",
+    "name": "NVIDIA",
+    "description": "GPU maker's AI research division, creating optimized models for their hardware. Known for Nemotron fine-tunes.",
+    "headquarters": {
+      "city": "Santa Clara",
+      "country": "USA"
+    },
+    "founded": 2016,
+    "foundedNote": "NVIDIA AI Research",
+    "website": "https://www.nvidia.com/en-us/ai/",
+    "modelsPage": "https://build.nvidia.com/explore/discover",
+    "flagship": "Nemotron 3 Nano 30B",
+    "modelFamilies": ["Nemotron", "Llama Nemotron"],
+    "notableModels": [
+      "Nemotron 3 Nano 30B",
+      "Llama Nemotron Ultra 253B",
+      "Llama Nemotron Super 49B",
+      "Nemotron Nano 12B VL"
+    ],
+    "openSource": true,
+    "apiAvailable": true,
+    "focus": ["optimization", "inference", "enterprise"],
+    "tier": 2
+  },
+  {
+    "id": "perplexity",
+    "name": "Perplexity",
+    "description": "AI-powered search engine company developing models optimized for information retrieval and real-time knowledge.",
+    "headquarters": {
+      "city": "San Francisco",
+      "country": "USA"
+    },
+    "founded": 2022,
+    "website": "https://www.perplexity.ai",
+    "chat": "https://www.perplexity.ai",
+    "modelsPage": "https://docs.perplexity.ai/guides/model-cards",
+    "flagship": "Sonar Reasoning Pro",
+    "modelFamilies": ["Sonar", "R1 1776"],
+    "notableModels": [
+      "Sonar Reasoning Pro",
+      "Sonar Pro",
+      "Sonar Reasoning",
+      "R1 1776"
+    ],
+    "openSource": "partial",
+    "openSourceNote": "R1 1776 is open-weight",
+    "apiAvailable": true,
+    "focus": ["search", "real-time-knowledge", "reasoning"],
+    "tier": 2
+  },
+  {
+    "id": "baidu",
+    "name": "Baidu",
+    "description": "Chinese tech giant's AI division, known for ERNIE models. Major player in Chinese-language AI.",
+    "headquarters": {
+      "city": "Beijing",
+      "country": "China"
+    },
+    "founded": 2010,
+    "foundedNote": "Baidu AI Lab",
+    "website": "https://yiyan.baidu.com",
+    "modelsPage": "https://cloud.baidu.com/product/wenxinworkshop",
+    "flagship": "ERNIE 5.0",
+    "modelFamilies": ["ERNIE", "PaddleOCR"],
+    "notableModels": ["ERNIE 5.0 Thinking", "ERNIE X1", "ERNIE 4.5"],
+    "openSource": "partial",
+    "apiAvailable": true,
+    "focus": ["chinese-language", "multimodal", "enterprise"],
+    "tier": 2
+  },
+  {
+    "id": "tencent",
+    "name": "Tencent",
+    "description": "Chinese tech giant developing Hunyuan models. Integrated across Tencent's ecosystem of apps.",
+    "headquarters": {
+      "city": "Shenzhen",
+      "country": "China"
+    },
+    "founded": 2016,
+    "foundedNote": "Tencent AI Lab",
+    "website": "https://hunyuan.tencent.com",
+    "modelsPage": "https://cloud.tencent.com/product/hunyuan",
+    "flagship": "Hunyuan T1",
+    "modelFamilies": ["Hunyuan"],
+    "notableModels": ["Hunyuan T1", "Hunyuan-TurboS", "Hunyuan 80B"],
+    "openSource": "partial",
+    "apiAvailable": true,
+    "focus": ["chinese-language", "reasoning", "multimodal"],
+    "tier": 2
+  },
+  {
+    "id": "bytedance",
+    "name": "ByteDance",
+    "description": "TikTok's parent company developing AI models including Doubao and Seed series for internal and external use.",
+    "headquarters": {
+      "city": "Beijing",
+      "country": "China"
+    },
+    "founded": 2016,
+    "foundedNote": "ByteDance AI Lab",
+    "website": "https://www.volcengine.com",
+    "modelsPage": "https://www.volcengine.com/product/doubao",
+    "flagship": "Seed-Thinking-v1.5",
+    "modelFamilies": ["Doubao", "Seed", "Skylark"],
+    "notableModels": [
+      "Seed-Thinking-v1.5",
+      "Doubao 1.5 Pro",
+      "Doubao Seed Code"
+    ],
+    "openSource": "partial",
+    "apiAvailable": true,
+    "focus": ["chinese-language", "coding", "content-generation"],
+    "tier": 2
+  },
+  {
+    "id": "zhipu",
+    "name": "Z.ai",
+    "description": "Chinese AI startup spun out of Tsinghua University. Develops GLM (General Language Model) series.",
+    "headquarters": {
+      "city": "Beijing",
+      "country": "China"
+    },
+    "founded": 2019,
+    "website": "https://www.zhipuai.cn",
+    "chat": "https://chatglm.cn",
+    "modelsPage": "https://open.bigmodel.cn/dev/howuse/model",
+    "flagship": "GLM-4.7",
+    "modelFamilies": ["GLM", "GLM-Z"],
+    "notableModels": ["GLM-4.7", "GLM-4.5", "GLM-Z1 Rumination"],
+    "openSource": "partial",
+    "apiAvailable": true,
+    "focus": ["chinese-language", "reasoning", "multimodal"],
+    "tier": 2
+  },
+  {
+    "id": "minimax",
+    "name": "MiniMax",
+    "description": "Chinese AI startup focused on multimodal AI including text, voice, and video generation.",
+    "headquarters": {
+      "city": "Shanghai",
+      "country": "China"
+    },
+    "founded": 2021,
+    "website": "https://www.minimaxi.com",
+    "chat": "https://hailuoai.com",
+    "modelsPage": "https://platform.minimaxi.com",
+    "flagship": "MiniMax-M2.1",
+    "modelFamilies": ["MiniMax-M"],
+    "notableModels": [
+      "MiniMax-M2.1",
+      "MiniMax-M2",
+      "MiniMax M1 80k",
+      "MiniMax M1 40k"
+    ],
+    "openSource": true,
+    "apiAvailable": true,
+    "focus": ["multimodal", "video", "chinese-language"],
+    "tier": 2
+  },
+  {
+    "id": "01ai",
+    "name": "01.AI",
+    "description": "Chinese AI company founded by Kai-Fu Lee. Develops efficient Yi models with strong multilingual capabilities.",
+    "headquarters": {
+      "city": "Beijing",
+      "country": "China"
+    },
+    "founded": 2023,
+    "website": "https://www.01.ai",
+    "modelsPage": "https://platform.01.ai",
+    "flagship": "Yi-Large",
+    "modelFamilies": ["Yi"],
+    "notableModels": ["Yi-Large", "Yi-Lightning"],
+    "openSource": true,
+    "apiAvailable": true,
+    "focus": ["efficiency", "multilingual", "open-source"],
+    "tier": 2
+  },
+  {
+    "id": "baichuan",
+    "name": "Baichuan",
+    "description": "Chinese AI startup founded by former Sogou CEO. Known for strong Chinese language understanding.",
+    "headquarters": {
+      "city": "Beijing",
+      "country": "China"
+    },
+    "founded": 2023,
+    "website": "https://www.baichuan-ai.com",
+    "modelsPage": "https://platform.baichuan-ai.com",
+    "flagship": "Baichuan M1",
+    "modelFamilies": ["Baichuan"],
+    "notableModels": ["Baichuan M1", "Baichuan 4"],
+    "openSource": "partial",
+    "apiAvailable": true,
+    "focus": ["chinese-language", "enterprise"],
+    "tier": 3
+  },
+  {
+    "id": "stepfun",
+    "name": "StepFun",
+    "description": "Chinese AI company developing Step series models with multimodal and audio capabilities.",
+    "headquarters": {
+      "city": "Shanghai",
+      "country": "China"
+    },
+    "founded": 2023,
+    "website": "https://www.stepfun.com",
+    "chat": "https://stepchat.cn",
+    "modelsPage": "https://platform.stepfun.com",
+    "flagship": "Step3",
+    "modelFamilies": ["Step"],
+    "notableModels": ["Step3", "Step-2", "Step-Audio R1.1"],
+    "openSource": false,
+    "apiAvailable": true,
+    "focus": ["multimodal", "audio", "chinese-language"],
+    "tier": 3
+  },
+  {
+    "id": "reka",
+    "name": "Reka AI",
+    "description": "AI startup founded by ex-Google and DeepMind researchers, focusing on multimodal models.",
+    "headquarters": {
+      "city": "San Francisco",
+      "country": "USA"
+    },
+    "founded": 2023,
+    "website": "https://www.reka.ai",
+    "chat": "https://chat.reka.ai",
+    "modelsPage": "https://docs.reka.ai",
+    "flagship": "Reka Flash 3",
+    "modelFamilies": ["Reka"],
+    "notableModels": ["Reka Flash 3", "Reka Flash"],
+    "openSource": true,
+    "apiAvailable": true,
+    "focus": ["multimodal", "efficiency"],
+    "tier": 3
+  },
+  {
+    "id": "upstage",
+    "name": "Upstage",
+    "description": "Korean AI company specializing in document AI and efficient language models.",
+    "headquarters": {
+      "city": "Seoul",
+      "country": "South Korea"
+    },
+    "founded": 2020,
+    "website": "https://www.upstage.ai",
+    "modelsPage": "https://developers.upstage.ai",
+    "flagship": "Solar Pro 2",
+    "modelFamilies": ["Solar"],
+    "notableModels": ["Solar Pro 2", "Solar Mini"],
+    "openSource": "partial",
+    "openSourceNote": "Solar Mini is open-weight",
+    "apiAvailable": true,
+    "focus": ["document-ai", "efficiency", "enterprise"],
+    "tier": 3
+  },
+  {
+    "id": "lg",
+    "name": "LG AI Research",
+    "description": "LG's AI research division developing EXAONE models with focus on enterprise and Korean language.",
+    "headquarters": {
+      "city": "Seoul",
+      "country": "South Korea"
+    },
+    "founded": 2020,
+    "website": "https://www.lgresearch.ai",
+    "modelsPage": "https://huggingface.co/LGAI-EXAONE",
+    "flagship": "EXAONE 4.0 32B",
+    "modelFamilies": ["EXAONE", "K-EXAONE"],
+    "notableModels": ["EXAONE 4.0 32B", "K-EXAONE", "EXAONE 4.0 1.2B"],
+    "openSource": true,
+    "apiAvailable": false,
+    "focus": ["korean-language", "enterprise", "reasoning"],
+    "tier": 3
+  },
+  {
+    "id": "korea-telecom",
+    "name": "Korea Telecom",
+    "description": "Korean telecom company developing Mi:dm models for Korean language understanding.",
+    "headquarters": {
+      "city": "Seoul",
+      "country": "South Korea"
+    },
+    "founded": 2023,
+    "foundedNote": "AI division",
+    "website": "https://www.kt.com",
+    "modelsPage": null,
+    "flagship": "Mi:dm K 2.5 Pro",
+    "modelFamilies": ["Mi:dm"],
+    "notableModels": ["Mi:dm K 2.5 Pro"],
+    "openSource": false,
+    "apiAvailable": true,
+    "focus": ["korean-language", "enterprise"],
+    "tier": 3
+  },
+  {
+    "id": "ibm",
+    "name": "IBM",
+    "description": "Tech giant's AI division developing Granite models focused on enterprise trust and transparency.",
+    "headquarters": {
+      "city": "Armonk",
+      "country": "USA"
+    },
+    "founded": 2014,
+    "foundedNote": "IBM Watson, later IBM Research AI",
+    "website": "https://www.ibm.com/granite",
+    "modelsPage": "https://www.ibm.com/products/watsonx-ai/foundation-models",
+    "flagship": "Granite 4.0",
+    "modelFamilies": ["Granite"],
+    "notableModels": [
+      "Granite 4.0 H Small",
+      "Granite 4.0 1B",
+      "Granite 4.0 Micro",
+      "Granite 3.3 8B"
+    ],
+    "openSource": true,
+    "apiAvailable": true,
+    "focus": ["enterprise", "trust", "efficiency"],
+    "tier": 3
+  },
+  {
+    "id": "databricks",
+    "name": "Databricks",
+    "description": "Data and AI company that developed DBRX, an efficient MoE model for enterprise use.",
+    "headquarters": {
+      "city": "San Francisco",
+      "country": "USA"
+    },
+    "founded": 2013,
+    "website": "https://www.databricks.com",
+    "modelsPage": "https://www.databricks.com/product/machine-learning/mosaic-ai-model-serving",
+    "flagship": "DBRX",
+    "modelFamilies": ["DBRX"],
+    "notableModels": ["DBRX"],
+    "openSource": true,
+    "apiAvailable": true,
+    "focus": ["enterprise", "data-analytics", "efficiency"],
+    "tier": 3
+  },
+  {
+    "id": "snowflake",
+    "name": "Snowflake",
+    "description": "Cloud data company developing Arctic models for enterprise data and analytics applications.",
+    "headquarters": {
+      "city": "Bozeman",
+      "country": "USA"
+    },
+    "founded": 2012,
+    "website": "https://www.snowflake.com",
+    "modelsPage": "https://www.snowflake.com/en/data-cloud/arctic/",
+    "flagship": "Arctic",
+    "modelFamilies": ["Arctic", "Snowflake Llama"],
+    "notableModels": ["Arctic", "Snowflake Llama 3.3 70B"],
+    "openSource": true,
+    "apiAvailable": true,
+    "focus": ["enterprise", "data-analytics", "SQL"],
+    "tier": 3
+  },
+  {
+    "id": "liquid",
+    "name": "Liquid AI",
+    "description": "MIT spinoff developing novel Liquid Foundation Models using state-space architectures for efficiency.",
+    "headquarters": {
+      "city": "Boston",
+      "country": "USA"
+    },
+    "founded": 2023,
+    "website": "https://www.liquid.ai",
+    "chat": "https://playground.liquid.ai",
+    "modelsPage": "https://www.liquid.ai/liquid-foundation-models",
+    "flagship": "LFM2 8B",
+    "modelFamilies": ["LFM"],
+    "notableModels": ["LFM2 8B", "LFM2 2.6B", "LFM2 1.2B", "LFM 40B"],
+    "openSource": "partial",
+    "openSourceNote": "LFM2 models are open-weight",
+    "apiAvailable": true,
+    "focus": ["efficiency", "novel-architectures", "on-device"],
+    "tier": 3
+  },
+  {
+    "id": "tii",
+    "name": "TII UAE (Technology Innovation Institute)",
+    "description": "UAE government research institute developing open Falcon models.",
+    "headquarters": {
+      "city": "Abu Dhabi",
+      "country": "UAE"
+    },
+    "founded": 2020,
+    "website": "https://www.tii.ae",
+    "modelsPage": "https://huggingface.co/tiiuae",
+    "flagship": "Falcon-H1R-7B",
+    "modelFamilies": ["Falcon"],
+    "notableModels": ["Falcon-H1R-7B", "Falcon 180B", "Falcon 40B"],
+    "openSource": true,
+    "apiAvailable": false,
+    "focus": ["open-source", "multilingual", "arabic"],
+    "tier": 3
+  },
+  {
+    "id": "apple",
+    "name": "Apple",
+    "description": "Apple's machine learning team developing on-device AI models for privacy-focused applications.",
+    "headquarters": {
+      "city": "Cupertino",
+      "country": "USA"
+    },
+    "founded": 2016,
+    "foundedNote": "Apple ML team expanded significantly",
+    "website": "https://machinelearning.apple.com",
+    "modelsPage": null,
+    "flagship": "Apple On-Device",
+    "modelFamilies": ["Apple On-Device", "FastVLM"],
+    "notableModels": ["Apple On-Device", "FastVLM"],
+    "openSource": false,
+    "apiAvailable": false,
+    "focus": ["on-device", "privacy", "efficiency"],
+    "tier": 3
+  },
+  {
+    "id": "xiaomi",
+    "name": "Xiaomi",
+    "description": "Chinese electronics company developing MiMo models for on-device and mobile AI applications.",
+    "headquarters": {
+      "city": "Beijing",
+      "country": "China"
+    },
+    "founded": 2023,
+    "foundedNote": "Xiaomi AI Lab expanded",
+    "website": "https://www.mi.com",
+    "chat": "https://huggingface.co/spaces/XiaomiMiMo/MiMo-7B-RL",
+    "modelsPage": "https://huggingface.co/XiaomiMiMo",
+    "flagship": "MiMo-V2-Flash",
+    "modelFamilies": ["MiMo"],
+    "notableModels": ["MiMo-V2-Flash", "MiMo 7B RL"],
+    "openSource": true,
+    "apiAvailable": false,
+    "focus": ["on-device", "mobile", "efficiency"],
+    "tier": 3
+  },
+  {
+    "id": "inception",
+    "name": "Inception Labs",
+    "description": "AI startup developing Mercury models using novel diffusion-based language model architectures.",
+    "headquarters": {
+      "city": "San Francisco",
+      "country": "USA"
+    },
+    "founded": 2024,
+    "website": "https://www.inceptionlabs.ai",
+    "chat": "https://chat.inceptionlabs.ai",
+    "modelsPage": "https://www.inceptionlabs.ai",
+    "flagship": "Mercury",
+    "modelFamilies": ["Mercury"],
+    "notableModels": ["Mercury", "Mercury Coder Small", "Mercury Instruct"],
+    "openSource": false,
+    "apiAvailable": true,
+    "focus": ["novel-architectures", "speed", "coding"],
+    "tier": 3
+  },
+  {
+    "id": "inclusionai",
+    "name": "InclusionAI",
+    "description": "Chinese AI company developing Ling and Ring series models.",
+    "headquarters": {
+      "city": "China",
+      "country": "China"
+    },
+    "founded": 2024,
+    "website": null,
+    "chat": "https://huggingface.co/spaces/inclusionAI/Ling-1T",
+    "modelsPage": "https://huggingface.co/inclusionAI",
+    "flagship": "Ling-1T",
+    "modelFamilies": ["Ling", "Ring"],
+    "notableModels": ["Ling-1T", "Ring-1T", "Ling-flash-2.0"],
+    "openSource": true,
+    "apiAvailable": false,
+    "focus": ["efficiency", "open-source"],
+    "tier": 3
+  },
+  {
+    "id": "prime-intellect",
+    "name": "Prime Intellect",
+    "description": "Decentralized AI research collective developing open models through distributed compute.",
+    "headquarters": {
+      "city": "San Francisco",
+      "country": "USA"
+    },
+    "founded": 2024,
+    "website": "https://www.primeintellect.ai",
+    "chat": "https://app.primeintellect.ai/chat",
+    "modelsPage": "https://huggingface.co/PrimeIntellect",
+    "flagship": "INTELLECT-3",
+    "modelFamilies": ["INTELLECT"],
+    "notableModels": ["INTELLECT-3"],
+    "openSource": true,
+    "apiAvailable": false,
+    "focus": ["decentralized", "open-source", "distributed-training"],
+    "tier": 3
+  },
+  {
+    "id": "openchat",
+    "name": "OpenChat",
+    "description": "Open-source project developing fine-tuned chat models based on Llama and Mistral.",
+    "headquarters": {
+      "city": "San Francisco",
+      "country": "USA"
+    },
+    "founded": 2023,
+    "website": "https://github.com/imoneoi/openchat",
+    "modelsPage": "https://huggingface.co/openchat",
+    "flagship": "OpenChat 3.5",
+    "modelFamilies": ["OpenChat"],
+    "notableModels": ["OpenChat 3.5"],
+    "openSource": true,
+    "apiAvailable": false,
+    "focus": ["open-source", "chat", "fine-tuning"],
+    "tier": 3
+  },
+  {
+    "id": "motif",
+    "name": "Motif Technologies",
+    "description": "South Korean AI company developing efficient language models.",
+    "headquarters": {
+      "city": "Seoul",
+      "country": "South Korea"
+    },
+    "founded": null,
+    "website": null,
+    "modelsPage": null,
+    "flagship": "Motif-2-12.7B",
+    "modelFamilies": ["Motif"],
+    "notableModels": ["Motif-2-12.7B"],
+    "openSource": true,
+    "apiAvailable": false,
+    "focus": ["efficiency"],
+    "tier": 3
+  },
+  {
+    "id": "moonshot",
+    "name": "Moonshot AI",
+    "description": "Chinese AI startup known for long-context models and the Kimi chat assistant.",
+    "headquarters": {
+      "city": "Beijing",
+      "country": "China"
+    },
+    "founded": 2023,
+    "website": "https://www.moonshot.cn",
+    "chat": "https://kimi.moonshot.cn",
+    "modelsPage": "https://platform.moonshot.cn",
+    "flagship": "Kimi K2",
+    "modelFamilies": ["Kimi", "Kimi Linear"],
+    "notableModels": ["Kimi K2", "Kimi K2 Thinking", "Kimi Linear 48B"],
+    "openSource": true,
+    "apiAvailable": true,
+    "focus": ["long-context", "chinese-language", "reasoning"],
+    "tier": 2
+  },
+  {
+    "id": "huggingface",
+    "name": "Hugging Face",
+    "description": "AI company and platform hosting open-source models, datasets, and providing inference services.",
+    "headquarters": {
+      "city": "New York",
+      "country": "USA"
+    },
+    "founded": 2016,
+    "website": "https://huggingface.co",
+    "chat": "https://huggingface.co/chat",
+    "modelsPage": "https://huggingface.co/models",
+    "flagship": "HuggingChat",
+    "modelFamilies": ["HuggingChat"],
+    "notableModels": ["HuggingChat"],
+    "openSource": true,
+    "apiAvailable": true,
+    "focus": ["open-source", "model-hosting", "community"],
+    "tier": 2
+  },
+  {
+    "id": "inflection",
+    "name": "Inflection AI",
+    "description": "AI company focused on personal AI assistants. Creator of Pi, a conversational AI companion.",
+    "headquarters": {
+      "city": "Palo Alto",
+      "country": "USA"
+    },
+    "founded": 2022,
+    "website": "https://inflection.ai",
+    "chat": "https://pi.ai",
+    "modelsPage": null,
+    "flagship": "Inflection 3",
+    "modelFamilies": ["Inflection", "Pi"],
+    "notableModels": ["Inflection 3", "Pi"],
+    "openSource": false,
+    "apiAvailable": false,
+    "focus": ["personal-ai", "conversation", "empathy"],
+    "tier": 2
+  },
+  {
+    "id": "ai2",
+    "name": "Allen Institute for AI (AI2)",
+    "description": "Non-profit AI research institute founded by Paul Allen. Known for open science and OLMo models.",
+    "headquarters": {
+      "city": "Tel Aviv",
+      "country": "Israel"
+    },
+    "founded": 2014,
+    "website": "https://allenai.org",
+    "chat": "https://playground.allenai.org",
+    "modelsPage": "https://allenai.org/olmo",
+    "flagship": "OLMo 3.1 32B",
+    "modelFamilies": ["OLMo", "Molmo", "Tulu"],
+    "notableModels": [
+      "OLMo 3.1 32B Think",
+      "OLMo 3 32B Think",
+      "Molmo2-8B",
+      "Llama 3.1 Tulu3 405B"
+    ],
+    "openSource": true,
+    "apiAvailable": true,
+    "focus": ["open-science", "research", "multimodal"],
+    "tier": 2
+  },
+  {
+    "id": "together",
+    "name": "Together AI",
+    "description": "Cloud platform for running and fine-tuning open-source AI models. Provides inference and training services.",
+    "headquarters": {
+      "city": "San Francisco",
+      "country": "USA"
+    },
+    "founded": 2022,
+    "website": "https://www.together.ai",
+    "chat": "https://api.together.ai/playground/chat",
+    "modelsPage": "https://www.together.ai/models",
+    "flagship": "Together Inference",
+    "modelFamilies": ["Together"],
+    "notableModels": ["Together Inference"],
+    "openSource": false,
+    "apiAvailable": true,
+    "focus": ["inference", "fine-tuning", "open-source-hosting"],
+    "tier": 2
+  },
+  {
+    "id": "arcee",
+    "name": "Arcee AI",
+    "description": "AI company specializing in enterprise model adaptation and fine-tuning.",
+    "headquarters": {
+      "city": "San Francisco",
+      "country": "USA"
+    },
+    "founded": 2023,
+    "website": "https://www.arcee.ai",
+    "chat": "https://app.arcee.ai",
+    "modelsPage": "https://huggingface.co/arcee-ai",
+    "flagship": "Arcee-VyLinh",
+    "modelFamilies": ["Arcee"],
+    "notableModels": ["Arcee-VyLinh", "Arcee-Spark"],
+    "openSource": "partial",
+    "apiAvailable": true,
+    "focus": ["enterprise", "fine-tuning", "adaptation"],
+    "tier": 3
+  },
+  {
+    "id": "nous",
+    "name": "Nous Research",
+    "description": "Open-source AI research collective known for Hermes fine-tuned models and synthetic data.",
+    "headquarters": {
+      "city": "San Francisco",
+      "country": "USA"
+    },
+    "founded": 2023,
+    "website": "https://nousresearch.com",
+    "chat": "https://hermes.nousresearch.com",
+    "modelsPage": "https://huggingface.co/NousResearch",
+    "flagship": "Hermes 3",
+    "modelFamilies": ["Hermes", "Nous"],
+    "notableModels": ["Hermes 3 405B", "Hermes 3 70B", "Nous Capybara"],
+    "openSource": true,
+    "apiAvailable": false,
+    "focus": ["open-source", "fine-tuning", "synthetic-data"],
+    "tier": 3
+  },
+  {
+    "id": "dolphin",
+    "name": "Cognitive Computations (Dolphin)",
+    "description": "Open-source project creating uncensored Dolphin fine-tunes of popular base models.",
+    "headquarters": {
+      "city": "San Francisco",
+      "country": "USA"
+    },
+    "founded": 2023,
+    "website": "https://erichartford.com",
+    "chat": "https://huggingface.co/spaces/cognitivecomputations/dolphin-2.9.3-qwen2.5-32b",
+    "modelsPage": "https://huggingface.co/cognitivecomputations",
+    "flagship": "Dolphin 3.0",
+    "modelFamilies": ["Dolphin"],
+    "notableModels": ["Dolphin 3.0 Llama 3.1 8B", "Dolphin 2.9 Qwen2.5"],
+    "openSource": true,
+    "apiAvailable": false,
+    "focus": ["open-source", "uncensored", "fine-tuning"],
+    "tier": 3
+  },
+  {
+    "id": "mbzuai",
+    "name": "MBZUAI",
+    "description": "Mohamed bin Zayed University of Artificial Intelligence. Research university developing K2 and other models.",
+    "headquarters": {
+      "city": "Abu Dhabi",
+      "country": "UAE"
+    },
+    "founded": 2019,
+    "website": "https://mbzuai.ac.ae",
+    "chat": "https://huggingface.co/spaces/MBZUAI-LLM/K2-Think",
+    "modelsPage": "https://huggingface.co/MBZUAI-LLM",
+    "flagship": "K2 Think",
+    "modelFamilies": ["K2", "Atlas"],
+    "notableModels": ["K2 Think", "K2 Instruct", "Atlas Chat"],
+    "openSource": true,
+    "apiAvailable": false,
+    "focus": ["research", "arabic", "multilingual"],
+    "tier": 3
+  },
+  {
+    "id": "wenxiaobai",
+    "name": "Wenxiaobai (问小白)",
+    "description": "Chinese AI assistant platform focused on consumer applications.",
+    "headquarters": {
+      "city": "China",
+      "country": "China"
+    },
+    "founded": 2023,
+    "website": "https://www.wenxiaobai.com",
+    "chat": "https://www.wenxiaobai.com",
+    "modelsPage": null,
+    "flagship": "Wenxiaobai",
+    "modelFamilies": ["Wenxiaobai"],
+    "notableModels": ["Wenxiaobai"],
+    "openSource": false,
+    "apiAvailable": false,
+    "focus": ["chinese-language", "consumer"],
+    "tier": 3
+  },
+  {
+    "id": "deep-cogito",
+    "name": "Deep Cogito",
+    "description": "AI research company developing Cogito reasoning models.",
+    "headquarters": {
+      "city": null,
+      "country": "Unknown"
+    },
+    "founded": 2024,
+    "website": null,
+    "modelsPage": "https://huggingface.co/deepcogito",
+    "flagship": "Cogito v2.1",
+    "modelFamilies": ["Cogito"],
+    "notableModels": ["Cogito v2.1"],
+    "openSource": true,
+    "apiAvailable": false,
+    "focus": ["reasoning", "open-source"],
+    "tier": 3
+  },
+  {
+    "id": "servicenow",
+    "name": "ServiceNow",
+    "description": "Enterprise software company developing Apriel reasoning models for enterprise AI applications.",
+    "headquarters": {
+      "city": "Santa Clara",
+      "country": "USA"
+    },
+    "founded": 2004,
+    "website": "https://www.servicenow.com",
+    "modelsPage": "https://huggingface.co/ServiceNow",
+    "flagship": "Apriel-v1.6-15B-Thinker",
+    "modelFamilies": ["Apriel"],
+    "notableModels": ["Apriel-v1.6-15B-Thinker", "Apriel-v1.5-15B-Thinker"],
+    "openSource": true,
+    "apiAvailable": false,
+    "focus": ["enterprise", "reasoning", "open-source"],
+    "tier": 3
+  },
+  {
+    "id": "naver",
+    "name": "Naver",
+    "description": "Korean tech giant developing HyperCLOVA X models for Korean language AI.",
+    "headquarters": {
+      "city": "Seongnam",
+      "country": "South Korea"
+    },
+    "founded": 1999,
+    "website": "https://www.navercorp.com",
+    "modelsPage": "https://clova.ai",
+    "flagship": "HyperCLOVA X SEED Think",
+    "modelFamilies": ["HyperCLOVA X"],
+    "notableModels": ["HyperCLOVA X SEED Think 32B"],
+    "openSource": false,
+    "apiAvailable": true,
+    "focus": ["korean-language", "enterprise", "reasoning"],
+    "tier": 3
+  },
+  {
+    "id": "kwaipilot",
+    "name": "KwaiPilot",
+    "description": "Kuaishou's AI for Software Engineering (AI4SE) research division developing the KAT (Kwaipilot-AutoThink) series of agentic coding models.",
+    "headquarters": {
+      "city": "Beijing",
+      "country": "China"
+    },
+    "founded": 2023,
+    "website": "https://kat-coder.org",
+    "modelsPage": "https://huggingface.co/KwaiPilot",
+    "flagship": "KAT-Coder-Pro V1",
+    "modelFamilies": ["KAT"],
+    "notableModels": ["KAT-Coder-Pro V1", "KAT-Dev-72B", "KAT-Dev-32B"],
+    "openSource": true,
+    "apiAvailable": true,
+    "focus": ["coding", "agentic-coding", "software-engineering"],
+    "tier": 2
+  }
+]

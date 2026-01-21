@@ -1,0 +1,684 @@
+[
+  {
+    "id": "openrouter",
+    "name": "OpenRouter",
+    "description": "Unified API for accessing multiple LLM providers with automatic fallbacks and load balancing.",
+    "category": "router",
+    "headquarters": {
+      "city": "San Francisco",
+      "country": "USA"
+    },
+    "founded": 2023,
+    "website": "https://openrouter.ai",
+    "apiDocs": "https://openrouter.ai/docs",
+    "modelsAvailable": 200,
+    "pricing": "pay-per-use",
+    "features": ["unified-api", "fallbacks", "load-balancing", "model-routing"],
+    "status": "alive"
+  },
+  {
+    "id": "switchpoint",
+    "name": "Switchpoint",
+    "description": "API router for switching between AI providers with unified interface.",
+    "category": "router",
+    "headquarters": {
+      "city": "San Francisco",
+      "country": "USA"
+    },
+    "founded": 2024,
+    "website": "https://www.switchpoint.dev",
+    "apiDocs": "https://www.switchpoint.dev/docs",
+    "modelsAvailable": 50,
+    "pricing": "pay-per-use",
+    "features": [
+      "unified-api",
+      "provider-switching",
+      "api-router",
+      "multi-provider"
+    ],
+    "status": "beta"
+  },
+  {
+    "id": "together",
+    "name": "Together AI",
+    "description": "Cloud platform for running and fine-tuning open-source AI models with optimized inference.",
+    "category": "neo-cloud",
+    "headquarters": {
+      "city": "San Francisco",
+      "country": "USA"
+    },
+    "founded": 2022,
+    "website": "https://www.together.ai",
+    "apiDocs": "https://docs.together.ai",
+    "modelsAvailable": 100,
+    "pricing": "pay-per-use",
+    "features": ["inference", "fine-tuning", "open-source-models", "serverless"],
+    "status": "alive"
+  },
+  {
+    "id": "fireworks",
+    "name": "Fireworks AI",
+    "description": "High-performance inference platform optimized for speed and cost efficiency.",
+    "category": "neo-cloud",
+    "headquarters": {
+      "city": "San Francisco",
+      "country": "USA"
+    },
+    "founded": 2022,
+    "website": "https://fireworks.ai",
+    "apiDocs": "https://docs.fireworks.ai",
+    "modelsAvailable": 50,
+    "pricing": "pay-per-use",
+    "features": [
+      "fast-inference",
+      "fine-tuning",
+      "function-calling",
+      "serverless"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "groq",
+    "name": "Groq",
+    "description": "Ultra-fast inference using custom LPU hardware for real-time AI applications.",
+    "category": "inference",
+    "headquarters": {
+      "city": "Mountain View",
+      "country": "USA"
+    },
+    "founded": 2016,
+    "website": "https://groq.com",
+    "apiDocs": "https://console.groq.com/docs",
+    "modelsAvailable": 15,
+    "pricing": "pay-per-use",
+    "features": ["ultra-fast", "lpu-hardware", "low-latency", "real-time"],
+    "status": "alive"
+  },
+  {
+    "id": "replicate",
+    "name": "Replicate",
+    "description": "Platform for running open-source machine learning models in the cloud.",
+    "category": "platform",
+    "headquarters": {
+      "city": "San Francisco",
+      "country": "USA"
+    },
+    "founded": 2019,
+    "website": "https://replicate.com",
+    "apiDocs": "https://replicate.com/docs",
+    "modelsAvailable": 1000,
+    "pricing": "pay-per-use",
+    "features": [
+      "open-source-models",
+      "image-generation",
+      "fine-tuning",
+      "serverless"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "deepinfra",
+    "name": "DeepInfra",
+    "description": "Serverless inference for open-source LLMs with competitive pricing.",
+    "category": "neo-cloud",
+    "headquarters": {
+      "city": "San Francisco",
+      "country": "USA"
+    },
+    "founded": 2023,
+    "website": "https://deepinfra.com",
+    "apiDocs": "https://deepinfra.com/docs",
+    "modelsAvailable": 50,
+    "pricing": "pay-per-use",
+    "features": [
+      "serverless",
+      "open-source-models",
+      "embeddings",
+      "competitive-pricing"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "cerebras",
+    "name": "Cerebras",
+    "description": "AI compute company offering inference on the world's largest AI chips.",
+    "category": "inference",
+    "headquarters": {
+      "city": "Sunnyvale",
+      "country": "USA"
+    },
+    "founded": 2016,
+    "website": "https://chat.cerebras.ai",
+    "apiDocs": "https://inference-docs.cerebras.ai",
+    "modelsAvailable": 10,
+    "pricing": "subscription",
+    "features": [
+      "wafer-scale",
+      "fast-inference",
+      "enterprise",
+      "custom-hardware"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "vertex-ai",
+    "name": "Google Vertex AI",
+    "description": "Google Cloud's unified AI platform for deploying and managing ML models.",
+    "category": "big-cloud",
+    "headquarters": {
+      "city": "Mountain View",
+      "country": "USA"
+    },
+    "founded": 2021,
+    "website": "https://cloud.google.com/vertex-ai",
+    "apiDocs": "https://cloud.google.com/vertex-ai/docs",
+    "modelsAvailable": 40,
+    "pricing": "pay-per-use",
+    "features": ["enterprise", "gemini-models", "gcp-integration", "mlops"],
+    "status": "alive"
+  },
+  {
+    "id": "alibaba-cloud",
+    "name": "Alibaba Cloud AI",
+    "description": "Alibaba's cloud platform offering generative AI solutions and model hosting.",
+    "category": "big-cloud",
+    "headquarters": {
+      "city": "Hangzhou",
+      "country": "China"
+    },
+    "founded": 2009,
+    "website": "https://www.alibabacloud.com/en/solutions/generative-ai",
+    "apiDocs": "https://www.alibabacloud.com/help/en/model-studio",
+    "modelsAvailable": 50,
+    "pricing": "pay-per-use",
+    "features": ["qwen-models", "enterprise", "asia-pacific", "multi-modal"],
+    "status": "alive"
+  },
+  {
+    "id": "databricks",
+    "name": "Databricks",
+    "description": "Data and AI company offering model serving and fine-tuning on their lakehouse platform.",
+    "category": "big-cloud",
+    "headquarters": {
+      "city": "San Francisco",
+      "country": "USA"
+    },
+    "founded": 2013,
+    "website": "https://www.databricks.com",
+    "apiDocs": "https://docs.databricks.com/en/machine-learning/index.html",
+    "modelsAvailable": 30,
+    "pricing": "pay-per-use",
+    "features": ["enterprise", "data-analytics", "mlops", "lakehouse"],
+    "status": "alive"
+  },
+  {
+    "id": "clarifai",
+    "name": "Clarifai",
+    "description": "Full-stack AI platform for building, deploying, and managing AI models.",
+    "category": "platform",
+    "headquarters": {
+      "city": "New York",
+      "country": "USA"
+    },
+    "founded": 2013,
+    "website": "https://www.clarifai.com",
+    "apiDocs": "https://docs.clarifai.com",
+    "modelsAvailable": 100,
+    "pricing": "pay-per-use",
+    "features": ["computer-vision", "nlp", "multi-modal", "enterprise"],
+    "status": "alive"
+  },
+  {
+    "id": "lightning",
+    "name": "Lightning AI",
+    "description": "Platform for building and deploying AI models with PyTorch Lightning integration.",
+    "category": "platform",
+    "headquarters": {
+      "city": "New York",
+      "country": "USA"
+    },
+    "founded": 2019,
+    "website": "https://lightning.ai",
+    "apiDocs": "https://lightning.ai/docs",
+    "modelsAvailable": 50,
+    "pricing": "pay-per-use",
+    "features": ["pytorch", "training", "inference", "developer-tools"],
+    "status": "alive"
+  },
+  {
+    "id": "baseten",
+    "name": "Baseten",
+    "description": "Infrastructure platform for deploying and scaling ML models with GPU optimization.",
+    "category": "platform",
+    "headquarters": {
+      "city": "San Francisco",
+      "country": "USA"
+    },
+    "founded": 2019,
+    "website": "https://www.baseten.co",
+    "apiDocs": "https://docs.baseten.co",
+    "modelsAvailable": 50,
+    "pricing": "subscription",
+    "features": ["gpu-optimization", "auto-scaling", "serverless", "enterprise"],
+    "status": "alive"
+  },
+  {
+    "id": "snowflake-cortex",
+    "name": "Snowflake Cortex",
+    "description": "AI features built into Snowflake's data cloud for LLM inference and analytics.",
+    "category": "big-cloud",
+    "headquarters": {
+      "city": "Bozeman",
+      "country": "USA"
+    },
+    "founded": 2012,
+    "website": "https://docs.snowflake.com/en/guides-overview-ai-features",
+    "apiDocs": "https://docs.snowflake.com/en/user-guide/snowflake-cortex",
+    "modelsAvailable": 20,
+    "pricing": "pay-per-use",
+    "features": ["data-cloud", "sql-integration", "enterprise", "analytics"],
+    "status": "alive"
+  },
+  {
+    "id": "hyperbolic",
+    "name": "Hyperbolic",
+    "description": "AI inference platform offering fast and affordable access to open-source models.",
+    "category": "neo-cloud",
+    "headquarters": {
+      "city": "San Francisco",
+      "country": "USA"
+    },
+    "founded": 2023,
+    "website": "https://www.hyperbolic.ai",
+    "apiDocs": "https://docs.hyperbolic.xyz",
+    "modelsAvailable": 30,
+    "pricing": "pay-per-use",
+    "features": [
+      "fast-inference",
+      "open-source-models",
+      "competitive-pricing",
+      "serverless"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "parasail",
+    "name": "Parasail",
+    "description": "Cloud inference platform with optimized performance for AI workloads.",
+    "category": "neo-cloud",
+    "headquarters": {
+      "city": "San Francisco",
+      "country": "USA"
+    },
+    "founded": 2023,
+    "website": "https://parasail.io",
+    "apiDocs": "https://parasail.io/docs",
+    "modelsAvailable": 20,
+    "pricing": "pay-per-use",
+    "features": ["optimized-inference", "serverless", "fast", "cost-effective"],
+    "status": "beta"
+  },
+  {
+    "id": "friendli",
+    "name": "Friendli",
+    "description": "Inference optimization platform for deploying LLMs with high efficiency.",
+    "category": "neo-cloud",
+    "headquarters": {
+      "city": "Seoul",
+      "country": "South Korea"
+    },
+    "founded": 2022,
+    "website": "https://friendli.ai",
+    "apiDocs": "https://docs.friendli.ai",
+    "modelsAvailable": 30,
+    "pricing": "pay-per-use",
+    "features": ["inference-optimization", "serverless", "enterprise", "fast"],
+    "status": "alive"
+  },
+  {
+    "id": "nebius",
+    "name": "Nebius",
+    "description": "European cloud platform offering AI infrastructure and model hosting services.",
+    "category": "neo-cloud",
+    "headquarters": {
+      "city": "Amsterdam",
+      "country": "Netherlands"
+    },
+    "founded": 2023,
+    "website": "https://nebius.com",
+    "apiDocs": "https://nebius.com/docs",
+    "modelsAvailable": 30,
+    "pricing": "pay-per-use",
+    "features": [
+      "european-cloud",
+      "gpu-infrastructure",
+      "enterprise",
+      "privacy"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "siliconflow",
+    "name": "SiliconFlow",
+    "description": "Chinese AI infrastructure platform offering efficient model inference services.",
+    "category": "neo-cloud",
+    "headquarters": {
+      "city": "Beijing",
+      "country": "China"
+    },
+    "founded": 2023,
+    "website": "https://www.siliconflow.com",
+    "apiDocs": "https://docs.siliconflow.cn",
+    "modelsAvailable": 50,
+    "pricing": "pay-per-use",
+    "features": [
+      "chinese-models",
+      "fast-inference",
+      "competitive-pricing",
+      "serverless"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "novita",
+    "name": "Novita AI",
+    "description": "API platform for AI image and video generation with fast inference.",
+    "category": "neo-cloud",
+    "headquarters": {
+      "city": "San Francisco",
+      "country": "USA"
+    },
+    "founded": 2023,
+    "website": "https://novita.ai",
+    "apiDocs": "https://novita.ai/docs",
+    "modelsAvailable": 100,
+    "pricing": "pay-per-use",
+    "features": ["image-generation", "video-generation", "fast", "api-first"],
+    "status": "alive"
+  },
+  {
+    "id": "lambda",
+    "name": "Lambda",
+    "description": "GPU cloud for AI training and inference with on-demand and reserved instances.",
+    "category": "gpu-cloud",
+    "headquarters": {
+      "city": "San Francisco",
+      "country": "USA"
+    },
+    "founded": 2012,
+    "website": "https://lambda.ai",
+    "apiDocs": "https://docs.lambda.ai",
+    "modelsAvailable": null,
+    "pricing": "pay-per-use",
+    "features": ["gpu-cloud", "training", "inference", "on-demand"],
+    "status": "alive"
+  },
+  {
+    "id": "scaleway",
+    "name": "Scaleway",
+    "description": "European cloud provider offering AI infrastructure and managed GPU services.",
+    "category": "gpu-cloud",
+    "headquarters": {
+      "city": "Paris",
+      "country": "France"
+    },
+    "founded": 1999,
+    "website": "https://www.scaleway.com/en/",
+    "apiDocs": "https://www.scaleway.com/en/docs/",
+    "modelsAvailable": 20,
+    "pricing": "pay-per-use",
+    "features": [
+      "european-cloud",
+      "gpu-instances",
+      "enterprise",
+      "sustainability"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "aws-bedrock",
+    "name": "AWS Bedrock",
+    "description": "Amazon's managed service for accessing foundation models from multiple providers.",
+    "category": "big-cloud",
+    "headquarters": {
+      "city": "Seattle",
+      "country": "USA"
+    },
+    "founded": 2023,
+    "website": "https://aws.amazon.com/bedrock",
+    "apiDocs": "https://docs.aws.amazon.com/bedrock",
+    "modelsAvailable": 30,
+    "pricing": "pay-per-use",
+    "features": ["enterprise", "multi-provider", "aws-integration", "security"],
+    "status": "alive"
+  },
+  {
+    "id": "azure-ai",
+    "name": "Azure AI",
+    "description": "Microsoft's cloud AI platform offering OpenAI models and other foundation models.",
+    "category": "big-cloud",
+    "headquarters": {
+      "city": "Redmond",
+      "country": "USA"
+    },
+    "founded": 2023,
+    "website": "https://azure.microsoft.com/en-us/products/ai-services",
+    "apiDocs": "https://learn.microsoft.com/en-us/azure/ai-services/",
+    "modelsAvailable": 25,
+    "pricing": "pay-per-use",
+    "features": ["enterprise", "openai-models", "azure-integration", "security"],
+    "status": "alive"
+  },
+  {
+    "id": "nvidia-nim",
+    "name": "NVIDIA NIM",
+    "description": "NVIDIA's inference microservices for deploying optimized AI models.",
+    "category": "inference",
+    "headquarters": {
+      "city": "Santa Clara",
+      "country": "USA"
+    },
+    "founded": 2024,
+    "website": "https://www.nvidia.com/en-us/ai/",
+    "apiDocs": "https://docs.nvidia.com/nim/",
+    "modelsAvailable": 50,
+    "pricing": "pay-per-use",
+    "features": [
+      "optimized-inference",
+      "nvidia-hardware",
+      "enterprise",
+      "containers"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "lepton",
+    "name": "Lepton AI",
+    "description": "Developer-friendly platform for building and deploying AI applications.",
+    "category": "neo-cloud",
+    "headquarters": {
+      "city": "San Francisco",
+      "country": "USA"
+    },
+    "founded": 2023,
+    "website": "https://www.lepton.ai",
+    "apiDocs": "https://www.lepton.ai/docs",
+    "modelsAvailable": 30,
+    "pricing": "pay-per-use",
+    "features": [
+      "developer-friendly",
+      "serverless",
+      "fast-deployment",
+      "open-source-models"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "modal",
+    "name": "Modal",
+    "description": "Cloud platform for running generative AI, data, and compute-intensive applications.",
+    "category": "platform",
+    "headquarters": {
+      "city": "San Francisco",
+      "country": "USA"
+    },
+    "founded": 2021,
+    "website": "https://modal.com",
+    "apiDocs": "https://modal.com/docs",
+    "modelsAvailable": null,
+    "pricing": "pay-per-use",
+    "features": ["serverless", "gpu-compute", "containers", "developer-tools"],
+    "status": "alive"
+  },
+  {
+    "id": "huggingface-inference",
+    "name": "Hugging Face Inference",
+    "description": "Inference API and endpoints for models hosted on Hugging Face Hub.",
+    "category": "platform",
+    "headquarters": {
+      "city": "New York",
+      "country": "USA"
+    },
+    "founded": 2016,
+    "website": "https://huggingface.co/inference-api",
+    "apiDocs": "https://huggingface.co/docs/api-inference",
+    "modelsAvailable": 10000,
+    "pricing": "free-tier",
+    "features": [
+      "open-source-models",
+      "free-tier",
+      "dedicated-endpoints",
+      "community"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "sambanova",
+    "name": "SambaNova",
+    "description": "Enterprise AI platform with custom hardware for fast, efficient inference.",
+    "category": "inference",
+    "headquarters": {
+      "city": "Palo Alto",
+      "country": "USA"
+    },
+    "founded": 2017,
+    "website": "https://sambanova.ai",
+    "apiDocs": "https://community.sambanova.ai/docs",
+    "modelsAvailable": 20,
+    "pricing": "subscription",
+    "features": [
+      "custom-hardware",
+      "enterprise",
+      "fast-inference",
+      "on-premise"
+    ],
+    "status": "alive"
+  },
+  {
+    "id": "ollama",
+    "name": "Ollama",
+    "description": "Run open-source LLMs locally on your machine with simple setup.",
+    "category": "local",
+    "headquarters": {
+      "city": null,
+      "country": "Distributed"
+    },
+    "founded": 2023,
+    "website": "https://ollama.com",
+    "apiDocs": "https://github.com/ollama/ollama/blob/main/docs/api.md",
+    "modelsAvailable": 100,
+    "pricing": "free",
+    "features": ["local-inference", "open-source", "easy-setup", "privacy"],
+    "status": "alive"
+  },
+  {
+    "id": "lmstudio",
+    "name": "LM Studio",
+    "description": "Desktop application for running local LLMs with a user-friendly interface.",
+    "category": "local",
+    "headquarters": {
+      "city": null,
+      "country": "USA"
+    },
+    "founded": 2023,
+    "website": "https://lmstudio.ai",
+    "apiDocs": "https://lmstudio.ai/docs",
+    "modelsAvailable": 100,
+    "pricing": "free",
+    "features": ["local-inference", "desktop-app", "user-friendly", "privacy"],
+    "status": "alive"
+  },
+  {
+    "id": "parallel",
+    "name": "Parallel AI",
+    "description": "Enterprise web search and research API platform optimized for AI agents with high accuracy.",
+    "category": "search",
+    "headquarters": {
+      "city": "San Francisco",
+      "country": "USA"
+    },
+    "founded": 2024,
+    "website": "https://parallel.ai",
+    "apiDocs": "https://parallel.ai/docs",
+    "modelsAvailable": 10,
+    "pricing": "pay-per-use",
+    "features": ["web-search-api", "research-api", "ai-agents", "enterprise"],
+    "status": "beta"
+  },
+  {
+    "id": "you",
+    "name": "You.com",
+    "description": "AI-powered search API providing web search, news, and RAG capabilities for developers and AI applications.",
+    "category": "search",
+    "headquarters": {
+      "city": "San Francisco",
+      "country": "USA"
+    },
+    "founded": 2020,
+    "website": "https://you.com",
+    "apiDocs": "https://documentation.you.com",
+    "modelsAvailable": 32,
+    "pricing": "freemium",
+    "features": ["web-search-api", "news-api", "rag", "ai-snippets"],
+    "status": "alive"
+  },
+  {
+    "id": "perplexity",
+    "name": "Perplexity",
+    "description": "AI-powered answer engine with real-time web search, citations, and Sonar API for developers.",
+    "category": "search",
+    "headquarters": {
+      "city": "San Francisco",
+      "country": "USA"
+    },
+    "founded": 2022,
+    "website": "https://perplexity.ai",
+    "apiDocs": "https://docs.perplexity.ai",
+    "modelsAvailable": 5,
+    "pricing": "freemium",
+    "features": ["web-search-api", "citations", "sonar-api", "real-time-search"],
+    "status": "alive"
+  },
+  {
+    "id": "streamlake",
+    "name": "StreamLake",
+    "description": "Kuaishou's inference platform providing API access to KAT coding models with Claude-compatible endpoints.",
+    "category": "inference",
+    "headquarters": {
+      "city": "Beijing",
+      "country": "China"
+    },
+    "founded": 2023,
+    "website": "https://streamlake.ai",
+    "apiDocs": "https://www.streamlake.ai/document",
+    "modelsAvailable": 5,
+    "pricing": "pay-per-use",
+    "features": [
+      "kat-models",
+      "claude-compatible",
+      "coding-models",
+      "agentic-coding"
+    ],
+    "status": "beta"
+  }
+]

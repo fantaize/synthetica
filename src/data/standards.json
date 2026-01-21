@@ -1,0 +1,205 @@
+[
+  {
+    "id": "mcp",
+    "name": "Model Context Protocol",
+    "acronym": "MCP",
+    "description": "Open standard for connecting AI applications to external data sources, tools, and workflows. Like USB-C for AI.",
+    "organization": "Anthropic",
+    "website": "https://modelcontextprotocol.io",
+    "github": "https://github.com/modelcontextprotocol",
+    "docs": "https://modelcontextprotocol.io/docs/getting-started/intro",
+    "features": [
+      "tool-integration",
+      "data-access",
+      "standardized",
+      "open-source"
+    ]
+  },
+  {
+    "id": "a2a",
+    "name": "Agent2Agent Protocol",
+    "acronym": "A2A",
+    "description": "Open protocol enabling AI agents on different frameworks to discover, communicate, and collaborate on complex tasks.",
+    "organization": "Google / Linux Foundation",
+    "website": "https://a2a-protocol.org",
+    "github": "https://github.com/a2aproject/A2A",
+    "docs": "https://a2a-protocol.org",
+    "features": ["agent-collaboration", "json-rpc", "streaming", "enterprise"]
+  },
+  {
+    "id": "acp-client",
+    "name": "Agent Client Protocol",
+    "acronym": "ACP",
+    "description": "Standardizes communication between code editors (IDEs, text-editors) and coding agents that use generative AI to autonomously modify code.",
+    "organization": "Community",
+    "website": "https://agentclientprotocol.com",
+    "github": null,
+    "docs": "https://agentclientprotocol.com/overview/introduction",
+    "features": [
+      "editor-integration",
+      "json-rpc",
+      "coding-agents",
+      "standardized"
+    ]
+  },
+  {
+    "id": "agents-md",
+    "name": "AGENTS.md",
+    "acronym": null,
+    "description": "Simple, open companion to README.md that gives coding agents a predictable, machine-readable place for project guidance. Adopted by 20k+ GitHub repos.",
+    "organization": "Agentic AI Foundation / Linux Foundation",
+    "website": "https://agents.md",
+    "github": null,
+    "docs": "https://agents.md",
+    "features": ["documentation", "cross-agent", "markdown", "conventions"]
+  },
+  {
+    "id": "x402",
+    "name": "x402",
+    "acronym": null,
+    "description": "Open standard for internet-native payments enabling frictionless micropayments and AI agent transactions via HTTP 402.",
+    "organization": "Community",
+    "website": "https://www.x402.org",
+    "github": null,
+    "docs": "https://www.x402.org",
+    "features": ["payments", "micropayments", "http-native", "stablecoins"]
+  },
+  {
+    "id": "ap2",
+    "name": "Agent Payments Protocol",
+    "acronym": "AP2",
+    "description": "Open protocol for the emerging Agent Economy. Enables secure, reliable, and interoperable agent commerce. Available as an extension for A2A.",
+    "organization": "Linux Foundation",
+    "website": "https://ap2-protocol.org",
+    "github": null,
+    "docs": "https://ap2-protocol.org",
+    "features": ["payments", "agent-commerce", "a2a-extension", "interoperable"]
+  },
+  {
+    "id": "a2a-x402",
+    "name": "A2A x402 Extension",
+    "acronym": null,
+    "description": "Brings cryptocurrency payments to A2A protocol, enabling agents to monetize services through on-chain payments. Revives HTTP 402 for decentralized agent ecosystem.",
+    "organization": "Google",
+    "website": "https://github.com/google-agentic-commerce/a2a-x402",
+    "github": "https://github.com/google-agentic-commerce/a2a-x402",
+    "docs": "https://github.com/google-agentic-commerce/a2a-x402",
+    "features": ["crypto-payments", "http-402", "on-chain", "monetization"]
+  },
+  {
+    "id": "xaa",
+    "name": "Cross App Access",
+    "acronym": "XAA",
+    "description": "Identity Assertion Authorization Grant that lets enterprises enable secure agent-to-app and app-to-app access with centralized IT oversight.",
+    "organization": "IETF",
+    "website": "https://datatracker.ietf.org/doc/draft-parecki-oauth-identity-assertion-authz-grant/",
+    "github": null,
+    "docs": "https://datatracker.ietf.org/doc/draft-parecki-oauth-identity-assertion-authz-grant/",
+    "features": ["enterprise", "identity", "oauth", "security"]
+  },
+  {
+    "id": "acp-comm",
+    "name": "Agent Communication Protocol",
+    "acronym": "ACP",
+    "description": "Open protocol for agent interoperability connecting AI agents, applications, and humans. Now part of A2A under the Linux Foundation.",
+    "organization": "Linux Foundation",
+    "website": "https://agentcommunicationprotocol.dev",
+    "github": null,
+    "docs": "https://agentcommunicationprotocol.dev",
+    "status": "Merged into A2A",
+    "features": ["agent-interoperability", "communication", "open-protocol"]
+  },
+  {
+    "id": "ag-ui",
+    "name": "Agent-User Interaction Protocol",
+    "acronym": "AG-UI",
+    "description": "Lightweight, event-based protocol that standardizes how AI agents connect to user-facing applications. Built for simplicity and flexibility.",
+    "organization": "Community",
+    "website": "https://docs.ag-ui.com",
+    "github": null,
+    "docs": "https://docs.ag-ui.com",
+    "features": ["event-based", "user-interface", "real-time", "lightweight"]
+  },
+  {
+    "id": "agents-json",
+    "name": "agents.json",
+    "acronym": null,
+    "description": "Open-source JSON specification defining machine-readable contracts for API and AI agent interactions on top of OpenAPI. Adds LLM-optimized schemas and tool directives.",
+    "organization": "Wild Card",
+    "website": "https://docs.wild-card.ai/agentsjson/introduction",
+    "github": null,
+    "docs": "https://docs.wild-card.ai/agentsjson/introduction",
+    "features": ["openapi", "json-spec", "tool-directives", "stateless"]
+  },
+  {
+    "id": "llms-txt",
+    "name": "llms.txt",
+    "acronym": null,
+    "description": "Standardized markdown file giving LLMs concise, expert-level context and pointers to detailed docs, avoiding noisy HTML. Supports deterministic parsing.",
+    "organization": "Community",
+    "website": "https://llmstxt.org",
+    "github": null,
+    "docs": "https://llmstxt.org",
+    "features": ["markdown", "llm-context", "documentation", "parseable"]
+  },
+  {
+    "id": "ack",
+    "name": "Agent Commerce Kit",
+    "acronym": "ACK",
+    "description": "Open-source toolkit enabling AI agents to securely participate in commerce. ACK-ID for verifiable identity using W3C DIDs/VCs, ACK-Pay for standardized payments.",
+    "organization": "Community",
+    "website": "https://www.agentcommercekit.com",
+    "github": null,
+    "docs": "https://www.agentcommercekit.com",
+    "features": ["commerce", "identity", "payments", "w3c-dids"]
+  },
+  {
+    "id": "agp",
+    "name": "Agent Gateway Protocol",
+    "acronym": "AGP",
+    "description": "High-performance messaging and routing layer for agent meshes with channel-based addressing and connection tables. Emphasizes mTLS, RBAC, encryption, and observability.",
+    "organization": "Community",
+    "website": null,
+    "github": null,
+    "docs": null,
+    "features": ["messaging", "routing", "agent-mesh", "security"]
+  },
+  {
+    "id": "agent-protocol",
+    "name": "Agent Protocol",
+    "acronym": "AP",
+    "description": "REST+OpenAPI spec where every agent exposes standard endpoints like POST /ap/v1/agent/tasks. Enables registries and orchestration to interact with heterogeneous agents.",
+    "organization": "AGI Inc.",
+    "website": null,
+    "github": null,
+    "docs": null,
+    "features": [
+      "rest-api",
+      "openapi",
+      "standardized-endpoints",
+      "orchestration"
+    ]
+  },
+  {
+    "id": "nanda",
+    "name": "NANDA",
+    "acronym": "NANDA",
+    "description": "Networked Agents and Decentralized AI. Decentralized registry model mapping agent IDs to cryptographically verifiable AgentFacts for distributed discovery and verification.",
+    "organization": "Community",
+    "website": null,
+    "github": null,
+    "docs": null,
+    "features": ["decentralized", "registry", "cryptographic", "discovery"]
+  },
+  {
+    "id": "a2a-registry",
+    "name": "A2A Registry",
+    "acronym": null,
+    "description": "Registry for A2A-compatible agents with registration, discovery, namespaces, and version management. Uses Agent Cards (JSON schemas) describing capabilities and endpoints.",
+    "organization": "Nacos / Community",
+    "website": null,
+    "github": null,
+    "docs": null,
+    "features": ["registry", "discovery", "agent-cards", "namespaces"]
+  }
+]
