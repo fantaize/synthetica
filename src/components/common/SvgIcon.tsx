@@ -7,7 +7,7 @@ interface SvgIconProps {
 
 export const SvgIcon: React.FC<SvgIconProps> = ({ name, size = 24 }) => (
   <img
-    src={`/icons/${name}`}
+    src={new URL(`../../icons/${name}`, import.meta.url).href}
     alt=""
     width={size}
     height={size}
