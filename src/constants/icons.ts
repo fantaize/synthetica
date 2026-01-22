@@ -35,6 +35,8 @@ export const WHITE_FILTER_ICONS = new Set([
   "moonshot.svg",
   "continue.svg",
   "windsurf.svg",
+  "agentzero.svg",
+  "capacity.svg",
 ]);
 
 // Icon file mappings for lab IDs
@@ -166,7 +168,6 @@ export const APP_ICON_FILES: Record<string, string> = {
   "openhands-cli": "openhands.svg",
   // Browsers
   "chatgpt-atlas": "openai.svg",
-  "perplexity-comet": "comet.svg",
   dia: "dia.svg",
   genspark: "genspark.svg",
   "edge-copilot": "bing-color.svg",
@@ -177,7 +178,6 @@ export const APP_ICON_FILES: Record<string, string> = {
   "ecosia-ai": "ecosia.svg",
   // Plugins
   "cline-plugin": "cline.svg",
-  "avante-nvim": "avante.svg",
   kilo: "kilo.svg",
   "augment-plugin": "augment.svg",
   "tabnine-nvim": "tabnine.svg",
@@ -185,7 +185,6 @@ export const APP_ICON_FILES: Record<string, string> = {
   "continue-plugin": "continue.svg",
   // Physical devices
   "rabbit-r1": "rabbit.svg",
-  "friend-pendant": "friend.svg",
   pickle: "pickle.svg",
   // Agents
   devin: "devin.svg",
@@ -198,7 +197,6 @@ export const APP_ICON_FILES: Record<string, string> = {
   "agent-zero": "agentzero.svg",
   eden: "edendark.svg",
   zo: "zo.svg",
-  skywork: "skywork.svg",
   phoenix: "phoenix.svg",
   daytona: "daytona.svg",
   greptile: "greptile-color.svg",
@@ -209,13 +207,11 @@ export const APP_ICON_FILES: Record<string, string> = {
   softgen: "softgen.svg",
   dyad: "dyad.svg",
   tempo: "tempo.svg",
-  "heroui-chat": "heroui.svg",
   rocket: "rocket.svg",
   superdesign: "superdesign.svg",
   semgrep: "semgrep.svg",
   uipath: "uipath.svg",
   atoms: "atoms.svg",
-  gamma: "gamma.svg",
   trickle: "trickle.svg",
   n8n: "n8n-color.svg",
   character: "character.svg",

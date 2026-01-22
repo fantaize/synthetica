@@ -1,1 +1,61 @@
-[]
+[
+  {
+    "id": "dolphin",
+    "name": "Cognitive Computations (Dolphin)",
+    "description": "Open-source project creating uncensored Dolphin fine-tunes of popular base models.",
+    "headquarters": {
+      "city": "San Francisco",
+      "country": "USA"
+    },
+    "founded": 2023,
+    "website": "https://erichartford.com",
+    "chat": "https://huggingface.co/spaces/cognitivecomputations/dolphin-2.9.3-qwen2.5-32b",
+    "modelsPage": "https://huggingface.co/cognitivecomputations",
+    "flagship": "Dolphin 3.0",
+    "modelFamilies": ["Dolphin"],
+    "notableModels": ["Dolphin 3.0 Llama 3.1 8B", "Dolphin 2.9 Qwen2.5"],
+    "openSource": true,
+    "apiAvailable": false,
+    "focus": ["open-source", "uncensored", "fine-tuning"],
+    "tier": 3
+  },
+  {
+    "id": "wenxiaobai",
+    "name": "Wenxiaobai (问小白)",
+    "description": "Chinese AI assistant platform focused on consumer applications.",
+    "headquarters": {
+      "city": "China",
+      "country": "China"
+    },
+    "founded": 2023,
+    "website": "https://www.wenxiaobai.com",
+    "chat": "https://www.wenxiaobai.com",
+    "modelsPage": null,
+    "flagship": "Wenxiaobai",
+    "modelFamilies": ["Wenxiaobai"],
+    "notableModels": ["Wenxiaobai"],
+    "openSource": false,
+    "apiAvailable": false,
+    "focus": ["chinese-language", "consumer"],
+    "tier": 3
+  },
+  {
+    "id": "naver",
+    "name": "Naver",
+    "description": "Korean tech giant developing HyperCLOVA X models for Korean language AI.",
+    "headquarters": {
+      "city": "Seongnam",
+      "country": "South Korea"
+    },
+    "founded": 1999,
+    "website": "https://www.navercorp.com",
+    "modelsPage": "https://clova.ai",
+    "flagship": "HyperCLOVA X SEED Think",
+    "modelFamilies": ["HyperCLOVA X"],
+    "notableModels": ["HyperCLOVA X SEED Think 32B"],
+    "openSource": false,
+    "apiAvailable": true,
+    "focus": ["korean-language", "enterprise", "reasoning"],
+    "tier": 3
+  }
+]
