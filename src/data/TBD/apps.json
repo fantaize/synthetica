@@ -14071,5 +14071,18 @@
       "yc-w24"
     ],
     "status": "alive"
+  },
+  {
+    "id": "sage",
+    "name": "Sage",
+    "description": "AI assistant platform.",
+    "category": "agent",
+    "platform": [
+      "web"
+    ],
+    "website": "https://sage.com",
+    "pricing": "unknown",
+    "features": [],
+    "status": "alive"
   }
 ]

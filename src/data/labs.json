@@ -717,7 +717,7 @@
     "flagship": "Apple On-Device",
     "modelFamilies": ["Apple On-Device", "FastVLM"],
     "notableModels": ["Apple On-Device", "FastVLM"],
-    "openSource": false,
+    "openSource": "partial",
     "apiAvailable": false,
     "focus": ["on-device", "privacy", "efficiency"],
     "tier": 3
