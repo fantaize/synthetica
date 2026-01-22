@@ -1,7 +1,6 @@
 import { Globe, MessageCircle } from "lucide-react";
 import type { LabCardProps } from "../../types";
 import { COLORS } from "../../constants/colors";
-import { LAB_ICON_FILES } from "../../constants/icons";
 import { SvgIcon } from "../common/SvgIcon";
 
 export const LabCard: React.FC<LabCardProps> = ({ lab, onClick }) => {
@@ -17,7 +16,6 @@ export const LabCard: React.FC<LabCardProps> = ({ lab, onClick }) => {
       : lab.openSource === "partial"
         ? COLORS.partial
         : COLORS.closed;
-  const iconFile = LAB_ICON_FILES[lab.id];
 
   return (
     <div
@@ -27,9 +25,9 @@ export const LabCard: React.FC<LabCardProps> = ({ lab, onClick }) => {
       <div className="p-4">
         <div className="flex items-start justify-between">
           <div className="flex items-start gap-3 flex-1 min-w-0">
-            {iconFile && (
+            {lab.icon && (
               <div className="w-8 h-8 bg-zinc-800 p-1.5 shrink-0 text-zinc-300 flex items-center justify-center">
-                <SvgIcon name={iconFile} size={20} />
+                <SvgIcon name={lab.icon} size={20} whiteFilter={lab.whiteFilter} />
               </div>
             )}
             <div className="flex-1 min-w-0">

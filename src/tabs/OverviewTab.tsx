@@ -12,7 +12,6 @@ import {
 import { Database, Cpu, MessageCircle, Unlock } from "lucide-react";
 import type { Lab, Stats, ChartDataItem } from "../types";
 import { COLORS, COUNTRY_COLORS } from "../constants/colors";
-import { LAB_ICON_FILES } from "../constants/icons";
 import { StatCard, SvgIcon } from "../components/common";
 import { CustomTooltip } from "../components/charts";
 
@@ -210,9 +209,9 @@ export const OverviewTab: React.FC<OverviewTabProps> = ({
                 onClick={() => onLabClick(lab)}
               >
                 <div className="flex items-start gap-2">
-                  {LAB_ICON_FILES[lab.id] && (
+                  {lab.icon && (
                     <div className="w-6 h-6 text-zinc-400 shrink-0 flex items-center justify-center">
-                      <SvgIcon name={LAB_ICON_FILES[lab.id]} size={20} />
+                      <SvgIcon name={lab.icon} size={20} whiteFilter={lab.whiteFilter} />
                     </div>
                   )}
                   <div className="flex-1 min-w-0">

@@ -14,7 +14,9 @@
     "modelsAvailable": 200,
     "pricing": "pay-per-use",
     "features": ["unified-api", "fallbacks", "load-balancing", "model-routing"],
-    "status": "alive"
+    "status": "alive",
+    "icon": "openrouter.svg",
+    "whiteFilter": true
   },
   {
     "id": "switchpoint",
@@ -53,7 +55,9 @@
     "modelsAvailable": 100,
     "pricing": "pay-per-use",
     "features": ["inference", "fine-tuning", "open-source-models", "serverless"],
-    "status": "alive"
+    "status": "alive",
+    "icon": "together-color.svg",
+    "whiteFilter": false
   },
   {
     "id": "fireworks",
@@ -75,7 +79,9 @@
       "function-calling",
       "serverless"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "fireworks-color.svg",
+    "whiteFilter": false
   },
   {
     "id": "groq",
@@ -92,7 +98,9 @@
     "modelsAvailable": 15,
     "pricing": "pay-per-use",
     "features": ["ultra-fast", "lpu-hardware", "low-latency", "real-time"],
-    "status": "alive"
+    "status": "alive",
+    "icon": "groq.svg",
+    "whiteFilter": true
   },
   {
     "id": "replicate",
@@ -114,7 +122,9 @@
       "fine-tuning",
       "serverless"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "replicate.svg",
+    "whiteFilter": true
   },
   {
     "id": "deepinfra",
@@ -136,7 +146,9 @@
       "embeddings",
       "competitive-pricing"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "deepinfra-color.svg",
+    "whiteFilter": false
   },
   {
     "id": "cerebras",
@@ -158,7 +170,9 @@
       "enterprise",
       "custom-hardware"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "cerebras-color.svg",
+    "whiteFilter": false
   },
   {
     "id": "vertex-ai",
@@ -175,7 +189,9 @@
     "modelsAvailable": 40,
     "pricing": "pay-per-use",
     "features": ["enterprise", "gemini-models", "gcp-integration", "mlops"],
-    "status": "alive"
+    "status": "alive",
+    "icon": "vertexai-color.svg",
+    "whiteFilter": false
   },
   {
     "id": "alibaba-cloud",
@@ -192,7 +208,9 @@
     "modelsAvailable": 50,
     "pricing": "pay-per-use",
     "features": ["qwen-models", "enterprise", "asia-pacific", "multi-modal"],
-    "status": "alive"
+    "status": "alive",
+    "icon": "alibabacloud-color.svg",
+    "whiteFilter": false
   },
   {
     "id": "databricks",
@@ -209,7 +227,9 @@
     "modelsAvailable": 30,
     "pricing": "pay-per-use",
     "features": ["enterprise", "data-analytics", "mlops", "lakehouse"],
-    "status": "alive"
+    "status": "alive",
+    "icon": "dbrx-color.svg",
+    "whiteFilter": false
   },
   {
     "id": "clarifai",
@@ -226,7 +246,9 @@
     "modelsAvailable": 100,
     "pricing": "pay-per-use",
     "features": ["computer-vision", "nlp", "multi-modal", "enterprise"],
-    "status": "alive"
+    "status": "alive",
+    "icon": "civitai-color.svg",
+    "whiteFilter": false
   },
   {
     "id": "lightning",
@@ -243,7 +265,9 @@
     "modelsAvailable": 50,
     "pricing": "pay-per-use",
     "features": ["pytorch", "training", "inference", "developer-tools"],
-    "status": "alive"
+    "status": "alive",
+    "icon": "leptonai-color.svg",
+    "whiteFilter": false
   },
   {
     "id": "baseten",
@@ -260,7 +284,9 @@
     "modelsAvailable": 50,
     "pricing": "subscription",
     "features": ["gpu-optimization", "auto-scaling", "serverless", "enterprise"],
-    "status": "alive"
+    "status": "alive",
+    "icon": "baseten.svg",
+    "whiteFilter": true
   },
   {
     "id": "snowflake-cortex",
@@ -277,7 +303,9 @@
     "modelsAvailable": 20,
     "pricing": "pay-per-use",
     "features": ["data-cloud", "sql-integration", "enterprise", "analytics"],
-    "status": "alive"
+    "status": "alive",
+    "icon": "snowflake-color.svg",
+    "whiteFilter": false
   },
   {
     "id": "hyperbolic",
@@ -299,7 +327,9 @@
       "competitive-pricing",
       "serverless"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "hyperbolic-color.svg",
+    "whiteFilter": false
   },
   {
     "id": "parasail",
@@ -316,7 +346,9 @@
     "modelsAvailable": 20,
     "pricing": "pay-per-use",
     "features": ["optimized-inference", "serverless", "fast", "cost-effective"],
-    "status": "beta"
+    "status": "beta",
+    "icon": "parasail.svg",
+    "whiteFilter": true
   },
   {
     "id": "friendli",
@@ -333,7 +365,9 @@
     "modelsAvailable": 30,
     "pricing": "pay-per-use",
     "features": ["inference-optimization", "serverless", "enterprise", "fast"],
-    "status": "alive"
+    "status": "alive",
+    "icon": "friendli.svg",
+    "whiteFilter": true
   },
   {
     "id": "nebius",
@@ -355,7 +389,9 @@
       "enterprise",
       "privacy"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "nebius.svg",
+    "whiteFilter": true
   },
   {
     "id": "siliconflow",
@@ -377,7 +413,9 @@
       "competitive-pricing",
       "serverless"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "siliconcloud-color.svg",
+    "whiteFilter": false
   },
   {
     "id": "novita",
@@ -394,7 +432,9 @@
     "modelsAvailable": 100,
     "pricing": "pay-per-use",
     "features": ["image-generation", "video-generation", "fast", "api-first"],
-    "status": "alive"
+    "status": "alive",
+    "icon": "novita-color.svg",
+    "whiteFilter": false
   },
   {
     "id": "lambda",
@@ -411,7 +451,9 @@
     "modelsAvailable": null,
     "pricing": "pay-per-use",
     "features": ["gpu-cloud", "training", "inference", "on-demand"],
-    "status": "alive"
+    "status": "alive",
+    "icon": "lambda.svg",
+    "whiteFilter": true
   },
   {
     "id": "scaleway",
@@ -433,7 +475,9 @@
       "enterprise",
       "sustainability"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "cloudflare-color.svg",
+    "whiteFilter": false
   },
   {
     "id": "aws-bedrock",
@@ -450,7 +494,9 @@
     "modelsAvailable": 30,
     "pricing": "pay-per-use",
     "features": ["enterprise", "multi-provider", "aws-integration", "security"],
-    "status": "alive"
+    "status": "alive",
+    "icon": "bedrock-color.svg",
+    "whiteFilter": false
   },
   {
     "id": "azure-ai",
@@ -467,7 +513,9 @@
     "modelsAvailable": 25,
     "pricing": "pay-per-use",
     "features": ["enterprise", "openai-models", "azure-integration", "security"],
-    "status": "alive"
+    "status": "alive",
+    "icon": "azureai-color.svg",
+    "whiteFilter": false
   },
   {
     "id": "nvidia-nim",
@@ -489,7 +537,9 @@
       "enterprise",
       "containers"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "nvidia-color.svg",
+    "whiteFilter": false
   },
   {
     "id": "lepton",
@@ -511,7 +561,9 @@
       "fast-deployment",
       "open-source-models"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "leptonai-color.svg",
+    "whiteFilter": false
   },
   {
     "id": "modal",
@@ -550,7 +602,9 @@
       "dedicated-endpoints",
       "community"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "huggingface-color.svg",
+    "whiteFilter": false
   },
   {
     "id": "sambanova",
@@ -572,7 +626,9 @@
       "fast-inference",
       "on-premise"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "sambanova-color.svg",
+    "whiteFilter": false
   },
   {
     "id": "ollama",
@@ -589,7 +645,9 @@
     "modelsAvailable": 100,
     "pricing": "free",
     "features": ["local-inference", "open-source", "easy-setup", "privacy"],
-    "status": "alive"
+    "status": "alive",
+    "icon": "ollama.svg",
+    "whiteFilter": true
   },
   {
     "id": "lmstudio",
@@ -606,7 +664,9 @@
     "modelsAvailable": 100,
     "pricing": "free",
     "features": ["local-inference", "desktop-app", "user-friendly", "privacy"],
-    "status": "alive"
+    "status": "alive",
+    "icon": "lmstudio.svg",
+    "whiteFilter": true
   },
   {
     "id": "parallel",
@@ -623,7 +683,9 @@
     "modelsAvailable": 10,
     "pricing": "pay-per-use",
     "features": ["web-search-api", "research-api", "ai-agents", "enterprise"],
-    "status": "beta"
+    "status": "beta",
+    "icon": "parallel.svg",
+    "whiteFilter": true
   },
   {
     "id": "you",
@@ -640,7 +702,9 @@
     "modelsAvailable": 32,
     "pricing": "freemium",
     "features": ["web-search-api", "news-api", "rag", "ai-snippets"],
-    "status": "alive"
+    "status": "alive",
+    "icon": "you.svg",
+    "whiteFilter": false
   },
   {
     "id": "perplexity",
@@ -657,7 +721,9 @@
     "modelsAvailable": 5,
     "pricing": "freemium",
     "features": ["web-search-api", "citations", "sonar-api", "real-time-search"],
-    "status": "alive"
+    "status": "alive",
+    "icon": "perplexity-color.svg",
+    "whiteFilter": false
   },
   {
     "id": "streamlake",
@@ -679,6 +745,8 @@
       "coding-models",
       "agentic-coding"
     ],
-    "status": "beta"
+    "status": "beta",
+    "icon": "kwaikat_small.svg",
+    "whiteFilter": false
   }
 ]

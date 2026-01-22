@@ -1,12 +1,9 @@
 import { Globe, MessageCircle, X } from "lucide-react";
 import type { LabModalProps } from "../../types";
-import { LAB_ICON_FILES } from "../../constants/icons";
 import { SvgIcon } from "../common/SvgIcon";
 
 export const LabModal: React.FC<LabModalProps> = ({ lab, onClose }) => {
   if (!lab) return null;
-
-  const iconFile = LAB_ICON_FILES[lab.id];
 
   const openSourceLabel =
     lab.openSource === true
@@ -33,9 +30,9 @@ export const LabModal: React.FC<LabModalProps> = ({ lab, onClose }) => {
         {/* Header with logo */}
         <div className="p-6 border-b border-zinc-800">
           <div className="flex items-start gap-4">
-            {iconFile && (
+            {lab.icon && (
               <div className="w-16 h-16 bg-zinc-800 p-3 shrink-0 flex items-center justify-center">
-                <SvgIcon name={iconFile} size={40} />
+                <SvgIcon name={lab.icon} size={40} whiteFilter={lab.whiteFilter} />
               </div>
             )}
             <div className="flex-1 min-w-0">

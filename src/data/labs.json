@@ -9,7 +9,7 @@
     },
     "founded": 2015,
     "website": "https://openai.com",
-    "chat": "https://chat.openai.com",
+    "chat": "https://chatgpt.com/",
     "modelsPage": "https://platform.openai.com/docs/models",
     "flagship": "GPT-5.2",
     "modelFamilies": ["GPT", "o-series", "gpt-oss", "DALL-E", "Whisper"],
@@ -18,7 +18,9 @@
     "openSourceNote": "gpt-oss models are open-weight",
     "apiAvailable": true,
     "focus": ["general-purpose", "reasoning", "multimodal", "coding"],
-    "tier": 1
+    "tier": 1,
+    "icon": "openai.svg",
+    "whiteFilter": true
   },
   {
     "id": "anthropic",
@@ -44,7 +46,9 @@
     "openSource": false,
     "apiAvailable": true,
     "focus": ["safety", "reasoning", "coding", "long-context"],
-    "tier": 1
+    "tier": 1,
+    "icon": "anthropic.svg",
+    "whiteFilter": true
   },
   {
     "id": "google",
@@ -57,7 +61,7 @@
     "founded": 2023,
     "foundedNote": "Merger of DeepMind (2010) and Google Brain (2011)",
     "website": "https://deepmind.google",
-    "chat": "https://gemini.google.com",
+    "chat": "https://gemini.google.com/app",
     "modelsPage": "https://ai.google.dev/gemini-api/docs/models/gemini",
     "flagship": "Gemini 3 Pro",
     "modelFamilies": ["Gemini", "Gemma", "Gemma 3n"],
@@ -72,7 +76,9 @@
     "openSourceNote": "Gemma models are open-weight",
     "apiAvailable": true,
     "focus": ["multimodal", "reasoning", "long-context", "efficiency"],
-    "tier": 1
+    "tier": 1,
+    "icon": "gemini-color.svg",
+    "whiteFilter": false
   },
   {
     "id": "meta",
@@ -93,7 +99,9 @@
     "apiAvailable": false,
     "apiNote": "Available through third-party providers",
     "focus": ["open-source", "efficiency", "multilingual"],
-    "tier": 1
+    "tier": 1,
+    "icon": "meta-color.svg",
+    "whiteFilter": false
   },
   {
     "id": "deepseek",
@@ -123,7 +131,9 @@
     "openSource": true,
     "apiAvailable": true,
     "focus": ["efficiency", "reasoning", "coding", "open-source"],
-    "tier": 1
+    "tier": 1,
+    "icon": "deepseek-color.svg",
+    "whiteFilter": false
   },
   {
     "id": "xai",
@@ -150,7 +160,9 @@
     "openSourceNote": "Grok-1 and Grok 2 are open-weight",
     "apiAvailable": true,
     "focus": ["reasoning", "real-time-knowledge", "coding"],
-    "tier": 1
+    "tier": 1,
+    "icon": "xai.svg",
+    "whiteFilter": true
   },
   {
     "id": "mistral",
@@ -162,7 +174,7 @@
     },
     "founded": 2023,
     "website": "https://mistral.ai",
-    "chat": "https://chat.mistral.ai",
+    "chat": "https://chat.mistral.ai/chat",
     "modelsPage": "https://docs.mistral.ai/getting-started/models/",
     "flagship": "Mistral Medium 3.1",
     "modelFamilies": [
@@ -184,7 +196,9 @@
     "openSourceNote": "Most models are open-weight",
     "apiAvailable": true,
     "focus": ["efficiency", "multilingual", "coding", "open-source"],
-    "tier": 2
+    "tier": 2,
+    "icon": "mistral-color.svg",
+    "whiteFilter": false
   },
   {
     "id": "alibaba",
@@ -211,7 +225,9 @@
     "openSource": true,
     "apiAvailable": true,
     "focus": ["multilingual", "coding", "reasoning", "open-source"],
-    "tier": 2
+    "tier": 2,
+    "icon": "alibaba-color.svg",
+    "whiteFilter": false
   },
   {
     "id": "cohere",
@@ -223,7 +239,7 @@
     },
     "founded": 2019,
     "website": "https://cohere.com",
-    "chat": "https://coral.cohere.com",
+    "chat": "https://dashboard.cohere.com/playground/chat",
     "modelsPage": "https://docs.cohere.com/docs/models",
     "flagship": "Command A",
     "modelFamilies": ["Command", "Aya", "Embed", "Rerank"],
@@ -232,7 +248,9 @@
     "openSourceNote": "Aya models are open-weight",
     "apiAvailable": true,
     "focus": ["enterprise", "RAG", "multilingual", "embeddings"],
-    "tier": 2
+    "tier": 2,
+    "icon": "cohere-color.svg",
+    "whiteFilter": false
   },
   {
     "id": "ai21",
@@ -244,7 +262,7 @@
     },
     "founded": 2017,
     "website": "https://www.ai21.com",
-    "chat": "https://studio.ai21.com",
+    "chat": "https://studio.ai21.com/chat",
     "modelsPage": "https://docs.ai21.com/docs/models-overview",
     "flagship": "Jamba 1.7 Large",
     "modelFamilies": ["Jamba"],
@@ -252,7 +270,9 @@
     "openSource": "partial",
     "apiAvailable": true,
     "focus": ["enterprise", "hybrid-architectures", "long-context"],
-    "tier": 2
+    "tier": 2,
+    "icon": "ai21.svg",
+    "whiteFilter": true
   },
   {
     "id": "amazon",
@@ -265,7 +285,7 @@
     "founded": 2023,
     "foundedNote": "Nova models launched 2024",
     "website": "https://aws.amazon.com/ai",
-    "chat": "https://aws.amazon.com/bedrock",
+    "chat": "https://nova.amazon.com/chat",
     "modelsPage": "https://aws.amazon.com/bedrock",
     "flagship": "Nova 2.0 Pro",
     "modelFamilies": ["Nova", "Titan"],
@@ -279,7 +299,9 @@
     "apiAvailable": true,
     "apiNote": "Via AWS Bedrock",
     "focus": ["enterprise", "multimodal", "cloud"],
-    "tier": 2
+    "tier": 2,
+    "icon": "aws-color.svg",
+    "whiteFilter": false
   },
   {
     "id": "microsoft",
@@ -300,7 +322,9 @@
     "openSourceNote": "Phi models are open-weight",
     "apiAvailable": true,
     "focus": ["efficiency", "small-models", "on-device", "reasoning"],
-    "tier": 2
+    "tier": 2,
+    "icon": "microsoft-color.svg",
+    "whiteFilter": false
   },
   {
     "id": "nvidia",
@@ -325,7 +349,9 @@
     "openSource": true,
     "apiAvailable": true,
     "focus": ["optimization", "inference", "enterprise"],
-    "tier": 2
+    "tier": 2,
+    "icon": "nvidia-color.svg",
+    "whiteFilter": false
   },
   {
     "id": "perplexity",
@@ -351,7 +377,9 @@
     "openSourceNote": "R1 1776 is open-weight",
     "apiAvailable": true,
     "focus": ["search", "real-time-knowledge", "reasoning"],
-    "tier": 2
+    "tier": 2,
+    "icon": "perplexity-color.svg",
+    "whiteFilter": false
   },
   {
     "id": "baidu",
@@ -371,7 +399,9 @@
     "openSource": "partial",
     "apiAvailable": true,
     "focus": ["chinese-language", "multimodal", "enterprise"],
-    "tier": 2
+    "tier": 2,
+    "icon": "baidu-color.svg",
+    "whiteFilter": false
   },
   {
     "id": "tencent",
@@ -391,7 +421,9 @@
     "openSource": "partial",
     "apiAvailable": true,
     "focus": ["chinese-language", "reasoning", "multimodal"],
-    "tier": 2
+    "tier": 2,
+    "icon": "hunyuan-color.svg",
+    "whiteFilter": false
   },
   {
     "id": "bytedance",
@@ -415,7 +447,9 @@
     "openSource": "partial",
     "apiAvailable": true,
     "focus": ["chinese-language", "coding", "content-generation"],
-    "tier": 2
+    "tier": 2,
+    "icon": "bytedance-color.svg",
+    "whiteFilter": false
   },
   {
     "id": "zhipu",
@@ -427,7 +461,7 @@
     },
     "founded": 2019,
     "website": "https://www.zhipuai.cn",
-    "chat": "https://chatglm.cn",
+    "chat": "https://chat.z.ai/",
     "modelsPage": "https://open.bigmodel.cn/dev/howuse/model",
     "flagship": "GLM-4.7",
     "modelFamilies": ["GLM", "GLM-Z"],
@@ -435,7 +469,9 @@
     "openSource": "partial",
     "apiAvailable": true,
     "focus": ["chinese-language", "reasoning", "multimodal"],
-    "tier": 2
+    "tier": 2,
+    "icon": "zai.svg",
+    "whiteFilter": true
   },
   {
     "id": "minimax",
@@ -447,7 +483,7 @@
     },
     "founded": 2021,
     "website": "https://www.minimaxi.com",
-    "chat": "https://hailuoai.com",
+    "chat": "https://agent.minimax.io/",
     "modelsPage": "https://platform.minimaxi.com",
     "flagship": "MiniMax-M2.1",
     "modelFamilies": ["MiniMax-M"],
@@ -460,7 +496,9 @@
     "openSource": true,
     "apiAvailable": true,
     "focus": ["multimodal", "video", "chinese-language"],
-    "tier": 2
+    "tier": 2,
+    "icon": "minimax-color.svg",
+    "whiteFilter": false
   },
   {
     "id": "01ai",
@@ -479,7 +517,9 @@
     "openSource": true,
     "apiAvailable": true,
     "focus": ["efficiency", "multilingual", "open-source"],
-    "tier": 2
+    "tier": 2,
+    "icon": "zeroone.svg",
+    "whiteFilter": true
   },
   {
     "id": "baichuan",
@@ -498,7 +538,9 @@
     "openSource": "partial",
     "apiAvailable": true,
     "focus": ["chinese-language", "enterprise"],
-    "tier": 3
+    "tier": 3,
+    "icon": "baichuan-color.svg",
+    "whiteFilter": false
   },
   {
     "id": "stepfun",
@@ -510,7 +552,7 @@
     },
     "founded": 2023,
     "website": "https://www.stepfun.com",
-    "chat": "https://stepchat.cn",
+    "chat": "https://stepfun.ai/chats/new",
     "modelsPage": "https://platform.stepfun.com",
     "flagship": "Step3",
     "modelFamilies": ["Step"],
@@ -518,7 +560,9 @@
     "openSource": false,
     "apiAvailable": true,
     "focus": ["multimodal", "audio", "chinese-language"],
-    "tier": 3
+    "tier": 3,
+    "icon": "stepfun-color.svg",
+    "whiteFilter": false
   },
   {
     "id": "reka",
@@ -530,7 +574,7 @@
     },
     "founded": 2023,
     "website": "https://www.reka.ai",
-    "chat": "https://chat.reka.ai",
+    "chat": "https://app.reka.ai/chat",
     "modelsPage": "https://docs.reka.ai",
     "flagship": "Reka Flash 3",
     "modelFamilies": ["Reka"],
@@ -538,7 +582,9 @@
     "openSource": true,
     "apiAvailable": true,
     "focus": ["multimodal", "efficiency"],
-    "tier": 3
+    "tier": 3,
+    "icon": "reka_small.svg",
+    "whiteFilter": false
   },
   {
     "id": "upstage",
@@ -558,7 +604,9 @@
     "openSourceNote": "Solar Mini is open-weight",
     "apiAvailable": true,
     "focus": ["document-ai", "efficiency", "enterprise"],
-    "tier": 3
+    "tier": 3,
+    "icon": "upstage-color.svg",
+    "whiteFilter": false
   },
   {
     "id": "lg",
@@ -577,7 +625,9 @@
     "openSource": true,
     "apiAvailable": false,
     "focus": ["korean-language", "enterprise", "reasoning"],
-    "tier": 3
+    "tier": 3,
+    "icon": "lg-color.svg",
+    "whiteFilter": false
   },
   {
     "id": "korea-telecom",
@@ -597,7 +647,9 @@
     "openSource": false,
     "apiAvailable": true,
     "focus": ["korean-language", "enterprise"],
-    "tier": 3
+    "tier": 3,
+    "icon": "korea-telecom_small.webp",
+    "whiteFilter": false
   },
   {
     "id": "ibm",
@@ -622,7 +674,9 @@
     "openSource": true,
     "apiAvailable": true,
     "focus": ["enterprise", "trust", "efficiency"],
-    "tier": 3
+    "tier": 3,
+    "icon": "ibm.svg",
+    "whiteFilter": true
   },
   {
     "id": "databricks",
@@ -641,7 +695,9 @@
     "openSource": true,
     "apiAvailable": true,
     "focus": ["enterprise", "data-analytics", "efficiency"],
-    "tier": 3
+    "tier": 3,
+    "icon": "dbrx-color.svg",
+    "whiteFilter": false
   },
   {
     "id": "snowflake",
@@ -660,7 +716,9 @@
     "openSource": true,
     "apiAvailable": true,
     "focus": ["enterprise", "data-analytics", "SQL"],
-    "tier": 3
+    "tier": 3,
+    "icon": "snowflake-color.svg",
+    "whiteFilter": false
   },
   {
     "id": "liquid",
@@ -672,7 +730,7 @@
     },
     "founded": 2023,
     "website": "https://www.liquid.ai",
-    "chat": "https://playground.liquid.ai",
+    "chat": "https://playground.liquid.ai/chat",
     "modelsPage": "https://www.liquid.ai/liquid-foundation-models",
     "flagship": "LFM2 8B",
     "modelFamilies": ["LFM"],
@@ -681,7 +739,9 @@
     "openSourceNote": "LFM2 models are open-weight",
     "apiAvailable": true,
     "focus": ["efficiency", "novel-architectures", "on-device"],
-    "tier": 3
+    "tier": 3,
+    "icon": "liquid.svg",
+    "whiteFilter": true
   },
   {
     "id": "tii",
@@ -700,7 +760,9 @@
     "openSource": true,
     "apiAvailable": false,
     "focus": ["open-source", "multilingual", "arabic"],
-    "tier": 3
+    "tier": 3,
+    "icon": "tii-color.svg",
+    "whiteFilter": false
   },
   {
     "id": "apple",
@@ -720,7 +782,9 @@
     "openSource": "partial",
     "apiAvailable": false,
     "focus": ["on-device", "privacy", "efficiency"],
-    "tier": 3
+    "tier": 3,
+    "icon": "apple.svg",
+    "whiteFilter": true
   },
   {
     "id": "xiaomi",
@@ -733,7 +797,7 @@
     "founded": 2023,
     "foundedNote": "Xiaomi AI Lab expanded",
     "website": "https://www.mi.com",
-    "chat": "https://huggingface.co/spaces/XiaomiMiMo/MiMo-7B-RL",
+    "chat": "https://aistudio.xiaomimimo.com/",
     "modelsPage": "https://huggingface.co/XiaomiMiMo",
     "flagship": "MiMo-V2-Flash",
     "modelFamilies": ["MiMo"],
@@ -741,7 +805,9 @@
     "openSource": true,
     "apiAvailable": false,
     "focus": ["on-device", "mobile", "efficiency"],
-    "tier": 3
+    "tier": 3,
+    "icon": "xiaomi_small.svg",
+    "whiteFilter": false
   },
   {
     "id": "inception",
@@ -761,7 +827,9 @@
     "openSource": false,
     "apiAvailable": true,
     "focus": ["novel-architectures", "speed", "coding"],
-    "tier": 3
+    "tier": 3,
+    "icon": "inception.svg",
+    "whiteFilter": true
   },
   {
     "id": "inclusionai",
@@ -773,7 +841,7 @@
     },
     "founded": 2024,
     "website": null,
-    "chat": "https://huggingface.co/spaces/inclusionAI/Ling-1T",
+    "chat": "https://ling-1t.ai/chat",
     "modelsPage": "https://huggingface.co/inclusionAI",
     "flagship": "Ling-1T",
     "modelFamilies": ["Ling", "Ring"],
@@ -781,7 +849,9 @@
     "openSource": true,
     "apiAvailable": false,
     "focus": ["efficiency", "open-source"],
-    "tier": 3
+    "tier": 3,
+    "icon": "inclusionai_small.webp",
+    "whiteFilter": false
   },
   {
     "id": "prime-intellect",
@@ -793,7 +863,7 @@
     },
     "founded": 2024,
     "website": "https://www.primeintellect.ai",
-    "chat": "https://app.primeintellect.ai/chat",
+    "chat": "https://chat.primeintellect.ai/",
     "modelsPage": "https://huggingface.co/PrimeIntellect",
     "flagship": "INTELLECT-3",
     "modelFamilies": ["INTELLECT"],
@@ -801,7 +871,9 @@
     "openSource": true,
     "apiAvailable": false,
     "focus": ["decentralized", "open-source", "distributed-training"],
-    "tier": 3
+    "tier": 3,
+    "icon": "prime-intellect_small.svg",
+    "whiteFilter": false
   },
   {
     "id": "openchat",
@@ -820,7 +892,9 @@
     "openSource": true,
     "apiAvailable": false,
     "focus": ["open-source", "chat", "fine-tuning"],
-    "tier": 3
+    "tier": 3,
+    "icon": "openchat-color.svg",
+    "whiteFilter": false
   },
   {
     "id": "motif",
@@ -839,7 +913,9 @@
     "openSource": true,
     "apiAvailable": false,
     "focus": ["efficiency"],
-    "tier": 3
+    "tier": 3,
+    "icon": "motif_small.svg",
+    "whiteFilter": false
   },
   {
     "id": "moonshot",
@@ -851,7 +927,7 @@
     },
     "founded": 2023,
     "website": "https://www.moonshot.cn",
-    "chat": "https://kimi.moonshot.cn",
+    "chat": "https://www.kimi.com/",
     "modelsPage": "https://platform.moonshot.cn",
     "flagship": "Kimi K2",
     "modelFamilies": ["Kimi", "Kimi Linear"],
@@ -859,7 +935,9 @@
     "openSource": true,
     "apiAvailable": true,
     "focus": ["long-context", "chinese-language", "reasoning"],
-    "tier": 2
+    "tier": 2,
+    "icon": "moonshot.svg",
+    "whiteFilter": true
   },
   {
     "id": "inflection",
@@ -871,7 +949,7 @@
     },
     "founded": 2022,
     "website": "https://inflection.ai",
-    "chat": "https://pi.ai",
+    "chat": "https://pi.ai/talk",
     "modelsPage": null,
     "flagship": "Inflection 3",
     "modelFamilies": ["Inflection", "Pi"],
@@ -879,7 +957,9 @@
     "openSource": false,
     "apiAvailable": false,
     "focus": ["personal-ai", "conversation", "empathy"],
-    "tier": 2
+    "tier": 2,
+    "icon": "inflection.svg",
+    "whiteFilter": true
   },
   {
     "id": "ai2",
@@ -904,7 +984,9 @@
     "openSource": true,
     "apiAvailable": true,
     "focus": ["open-science", "research", "multimodal"],
-    "tier": 2
+    "tier": 2,
+    "icon": "ai2-color.svg",
+    "whiteFilter": false
   },
   {
     "id": "together",
@@ -916,7 +998,7 @@
     },
     "founded": 2022,
     "website": "https://www.together.ai",
-    "chat": "https://api.together.ai/playground/chat",
+    "chat": "https://chat.together.ai/",
     "modelsPage": "https://www.together.ai/models",
     "flagship": "Together Inference",
     "modelFamilies": ["Together"],
@@ -924,7 +1006,9 @@
     "openSource": false,
     "apiAvailable": true,
     "focus": ["inference", "fine-tuning", "open-source-hosting"],
-    "tier": 2
+    "tier": 2,
+    "icon": "together-color.svg",
+    "whiteFilter": false
   },
   {
     "id": "arcee",
@@ -936,7 +1020,7 @@
     },
     "founded": 2023,
     "website": "https://www.arcee.ai",
-    "chat": "https://app.arcee.ai",
+    "chat": "https://chat.arcee.ai/chat",
     "modelsPage": "https://huggingface.co/arcee-ai",
     "flagship": "Arcee-VyLinh",
     "modelFamilies": ["Arcee"],
@@ -944,7 +1028,9 @@
     "openSource": "partial",
     "apiAvailable": true,
     "focus": ["enterprise", "fine-tuning", "adaptation"],
-    "tier": 3
+    "tier": 3,
+    "icon": "arcee-color.svg",
+    "whiteFilter": false
   },
   {
     "id": "nous",
@@ -956,7 +1042,7 @@
     },
     "founded": 2023,
     "website": "https://nousresearch.com",
-    "chat": "https://hermes.nousresearch.com",
+    "chat": "https://chat.nousresearch.com/",
     "modelsPage": "https://huggingface.co/NousResearch",
     "flagship": "Hermes 3",
     "modelFamilies": ["Hermes", "Nous"],
@@ -964,7 +1050,9 @@
     "openSource": true,
     "apiAvailable": false,
     "focus": ["open-source", "fine-tuning", "synthetic-data"],
-    "tier": 3
+    "tier": 3,
+    "icon": "nousresearch.svg",
+    "whiteFilter": true
   },
   {
     "id": "mbzuai",
@@ -976,7 +1064,7 @@
     },
     "founded": 2019,
     "website": "https://mbzuai.ac.ae",
-    "chat": "https://huggingface.co/spaces/MBZUAI-LLM/K2-Think",
+    "chat": "https://www.k2think.ai/guest",
     "modelsPage": "https://huggingface.co/MBZUAI-LLM",
     "flagship": "K2 Think",
     "modelFamilies": ["K2", "Atlas"],
@@ -984,7 +1072,9 @@
     "openSource": true,
     "apiAvailable": false,
     "focus": ["research", "arabic", "multilingual"],
-    "tier": 3
+    "tier": 3,
+    "icon": "mbzuai_small.svg",
+    "whiteFilter": false
   },
   {
     "id": "deep-cogito",
@@ -1004,7 +1094,9 @@
     "openSource": true,
     "apiAvailable": false,
     "focus": ["reasoning", "open-source"],
-    "tier": 3
+    "tier": 3,
+    "icon": "deepcogito-color.svg",
+    "whiteFilter": false
   },
   {
     "id": "servicenow",
@@ -1023,7 +1115,9 @@
     "openSource": true,
     "apiAvailable": false,
     "focus": ["enterprise", "reasoning", "open-source"],
-    "tier": 3
+    "tier": 3,
+    "icon": "servicenow_small.svg",
+    "whiteFilter": false
   },
   {
     "id": "kwaipilot",
@@ -1042,6 +1136,8 @@
     "openSource": true,
     "apiAvailable": true,
     "focus": ["coding", "agentic-coding", "software-engineering"],
-    "tier": 2
+    "tier": 2,
+    "icon": "kwaikat_small.svg",
+    "whiteFilter": false
   }
 ]

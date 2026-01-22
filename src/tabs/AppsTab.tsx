@@ -1,7 +1,6 @@
 import { useState, useMemo } from "react";
 import { Search } from "lucide-react";
 import type { App } from "../types";
-import { APP_ICON_FILES } from "../constants/icons";
 import { SvgIcon } from "../components/common";
 
 interface AppsTabProps {
@@ -88,17 +87,15 @@ export const AppsTab: React.FC<AppsTabProps> = ({ apps }) => {
               {CATEGORY_LABELS[category]}
             </h3>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-px bg-zinc-800">
-              {categoryApps.map((app) => {
-                const iconFile = APP_ICON_FILES[app.id];
-                return (
+              {categoryApps.map((app) => (
                   <div
                     key={app.id}
                     className="bg-zinc-900 p-4 hover:bg-zinc-800/50 transition-colors"
                   >
                     <div className="flex items-start gap-3">
-                      {iconFile && (
+                      {app.icon && (
                         <div className="w-8 h-8 bg-zinc-800 p-1.5 shrink-0 flex items-center justify-center">
-                          <SvgIcon name={iconFile} size={20} />
+                          <SvgIcon name={app.icon} size={20} whiteFilter={app.whiteFilter} />
                         </div>
                       )}
                       <div className="flex-1 min-w-0">
@@ -169,8 +166,8 @@ export const AppsTab: React.FC<AppsTabProps> = ({ apps }) => {
                       </a>
                     </div>
                   </div>
-                );
-              })}
+                ))}
+
             </div>
           </div>
         );

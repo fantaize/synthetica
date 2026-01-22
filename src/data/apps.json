@@ -17,7 +17,9 @@
       "code-generation",
       "multi-model"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "cursor.svg",
+    "whiteFilter": true
   },
   {
     "id": "windsurf",
@@ -37,7 +39,9 @@
       "cascade",
       "multi-file-editing"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "windsurf.svg",
+    "whiteFilter": true
   },
   {
     "id": "zed",
@@ -57,7 +61,9 @@
       "ai-assistant",
       "rust-based"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "zed.svg",
+    "whiteFilter": false
   },
   {
     "id": "antigravity",
@@ -75,7 +81,9 @@
       "web-based",
       "gemini"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "antigravity.svg",
+    "whiteFilter": false
   },
   {
     "id": "kiro",
@@ -95,7 +103,9 @@
       "code-generation",
       "chat"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "aws-color.svg",
+    "whiteFilter": false
   },
   {
     "id": "pear",
@@ -115,7 +125,9 @@
       "code-completion",
       "context"
     ],
-    "status": "dead"
+    "status": "dead",
+    "icon": "pear.svg",
+    "whiteFilter": true
   },
   {
     "id": "trae",
@@ -135,7 +147,9 @@
       "productivity",
       "modern"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "trae-color.svg",
+    "whiteFilter": false
   },
   {
     "id": "roocode",
@@ -155,7 +169,9 @@
       "multi-model",
       "chat"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "roocode.svg",
+    "whiteFilter": false
   },
   {
     "id": "orchids",
@@ -173,7 +189,9 @@
       "ai-powered",
       "rapid-prototyping"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "orchids.svg",
+    "whiteFilter": false
   },
   {
     "id": "claude-code",
@@ -193,7 +211,9 @@
       "file-editing",
       "bash-execution"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "anthropic.svg",
+    "whiteFilter": true
   },
   {
     "id": "jules",
@@ -211,7 +231,9 @@
       "automated",
       "github-integration"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "jules.svg",
+    "whiteFilter": false
   },
   {
     "id": "gemini-cli",
@@ -231,7 +253,9 @@
       "google-ai",
       "scripting"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "gemini-color.svg",
+    "whiteFilter": false
   },
   {
     "id": "mistral-vibe",
@@ -251,7 +275,9 @@
       "vibe-coding",
       "terminal"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "mistral-color.svg",
+    "whiteFilter": false
   },
   {
     "id": "qwen-code",
@@ -271,7 +297,9 @@
       "multi-language",
       "terminal"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "qwen-color.svg",
+    "whiteFilter": false
   },
   {
     "id": "aider",
@@ -291,7 +319,9 @@
       "multi-model",
       "open-source"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "aider.svg",
+    "whiteFilter": false
   },
   {
     "id": "opencode",
@@ -311,7 +341,9 @@
       "code-generation",
       "multi-model"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "opencode.svg",
+    "whiteFilter": false
   },
   {
     "id": "warp",
@@ -331,7 +363,9 @@
       "workflows",
       "collaboration"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "warp.svg",
+    "whiteFilter": false
   },
   {
     "id": "amp",
@@ -351,7 +385,9 @@
       "terminal",
       "ai-powered"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "amp.svg",
+    "whiteFilter": false
   },
   {
     "id": "openai-codex-cli",
@@ -371,7 +407,9 @@
       "terminal",
       "code-generation"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "openai.svg",
+    "whiteFilter": true
   },
   {
     "id": "copilot-cli",
@@ -391,7 +429,9 @@
       "git-integration",
       "terminal"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "githubcopilot.svg",
+    "whiteFilter": true
   },
   {
     "id": "augment-cli",
@@ -411,7 +451,9 @@
       "terminal",
       "context-aware"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "augment.svg",
+    "whiteFilter": false
   },
   {
     "id": "cline",
@@ -431,7 +473,9 @@
       "multi-tool",
       "open-source"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "cline.svg",
+    "whiteFilter": true
   },
   {
     "id": "kimi-cli",
@@ -451,7 +495,9 @@
       "terminal",
       "long-context"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "kimi-color.svg",
+    "whiteFilter": false
   },
   {
     "id": "mycoder",
@@ -471,7 +517,9 @@
       "terminal",
       "customizable"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "github.svg",
+    "whiteFilter": true
   },
   {
     "id": "goose-cli",
@@ -491,7 +539,9 @@
       "block",
       "extensible"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "goose.svg",
+    "whiteFilter": true
   },
   {
     "id": "openhands-cli",
@@ -511,7 +561,9 @@
       "autonomous",
       "terminal"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "openhands.svg",
+    "whiteFilter": false
   },
   {
     "id": "chatgpt-atlas",
@@ -529,7 +581,9 @@
       "research",
       "chat"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "openai.svg",
+    "whiteFilter": true
   },
   {
     "id": "perplexity-comet",
@@ -567,7 +621,9 @@
       "productivity",
       "chat"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "dia.svg",
+    "whiteFilter": false
   },
   {
     "id": "genspark",
@@ -606,7 +662,9 @@
       "integrated",
       "ai-powered"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "bing-color.svg",
+    "whiteFilter": false
   },
   {
     "id": "opera-neon",
@@ -625,7 +683,9 @@
       "modern-ui",
       "innovative"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "opera.svg",
+    "whiteFilter": false
   },
   {
     "id": "browser-use",
@@ -643,7 +703,9 @@
       "web-interaction",
       "open-source"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "browseruse.svg",
+    "whiteFilter": false
   },
   {
     "id": "fellou",
@@ -662,7 +724,9 @@
       "browsing",
       "assistant"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "fellou.svg",
+    "whiteFilter": false
   },
   {
     "id": "ecosia-ai",
@@ -681,7 +745,9 @@
       "trees",
       "privacy"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "ecosia.svg",
+    "whiteFilter": false
   },
   {
     "id": "avante-nvim",
@@ -721,7 +787,9 @@
       "chat",
       "context-aware"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "kilo.svg",
+    "whiteFilter": false
   },
   {
     "id": "augment-plugin",
@@ -741,7 +809,9 @@
       "context",
       "security"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "augment.svg",
+    "whiteFilter": false
   },
   {
     "id": "tabnine-nvim",
@@ -761,7 +831,9 @@
       "privacy",
       "fast"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "tabnine.svg",
+    "whiteFilter": false
   },
   {
     "id": "amazon-q",
@@ -781,7 +853,9 @@
       "code-completion",
       "security"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "bedrock-color.svg",
+    "whiteFilter": false
   },
   {
     "id": "continue-plugin",
@@ -801,7 +875,9 @@
       "vscode",
       "jetbrains"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "continue.svg",
+    "whiteFilter": true
   },
   {
     "id": "rabbit-r1",
@@ -819,7 +895,9 @@
       "portable",
       "voice"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "rabbit.svg",
+    "whiteFilter": false
   },
   {
     "id": "friend-pendant",
@@ -855,7 +933,9 @@
       "voice",
       "personal"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "pickle.svg",
+    "whiteFilter": false
   },
   {
     "id": "devin",
@@ -873,7 +953,9 @@
       "full-stack",
       "agentic"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "devin.svg",
+    "whiteFilter": false
   },
   {
     "id": "v0",
@@ -891,7 +973,9 @@
       "vercel",
       "design"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "vercel.svg",
+    "whiteFilter": true
   },
   {
     "id": "lovable",
@@ -909,7 +993,9 @@
       "ai-powered",
       "rapid"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "lovable.svg",
+    "whiteFilter": false
   },
   {
     "id": "bolt",
@@ -927,7 +1013,9 @@
       "webcontainer",
       "ai-builder"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "bolt.svg",
+    "whiteFilter": false
   },
   {
     "id": "replit-agent",
@@ -945,7 +1033,9 @@
       "collaborative",
       "agentic"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "replit-color.svg",
+    "whiteFilter": false
   },
   {
     "id": "manus",
@@ -963,7 +1053,9 @@
       "task-automation",
       "agentic"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "manus.svg",
+    "whiteFilter": true
   },
   {
     "id": "factory",
@@ -981,7 +1073,9 @@
       "droids",
       "software-factory"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "factory.svg",
+    "whiteFilter": false
   },
   {
     "id": "agent-zero",
@@ -999,7 +1093,9 @@
       "autonomous",
       "customizable"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "agentzero.svg",
+    "whiteFilter": true
   },
   {
     "id": "eden",
@@ -1017,7 +1113,9 @@
       "agentic",
       "beta"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "edendark.svg",
+    "whiteFilter": true
   },
   {
     "id": "zo",
@@ -1035,7 +1133,9 @@
       "desktop",
       "agentic"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "zo.svg",
+    "whiteFilter": false
   },
   {
     "id": "skywork",
@@ -1071,7 +1171,9 @@
       "ai-builder",
       "rapid"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "phoenix.svg",
+    "whiteFilter": false
   },
   {
     "id": "daytona",
@@ -1089,7 +1191,9 @@
       "standardized",
       "enterprise"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "daytona.svg",
+    "whiteFilter": false
   },
   {
     "id": "greptile",
@@ -1107,7 +1211,9 @@
       "understanding",
       "enterprise"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "greptile-color.svg",
+    "whiteFilter": false
   },
   {
     "id": "morph",
@@ -1125,7 +1231,9 @@
       "ai-powered",
       "analytics"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "morph-color.svg",
+    "whiteFilter": false
   },
   {
     "id": "command",
@@ -1143,7 +1251,9 @@
       "ai-powered",
       "instant"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "command.svg",
+    "whiteFilter": false
   },
   {
     "id": "create-xyz",
@@ -1161,7 +1271,9 @@
       "no-code",
       "rapid"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "createxyz.svg",
+    "whiteFilter": false
   },
   {
     "id": "softgen",
@@ -1179,7 +1291,9 @@
       "ai-powered",
       "automated"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "softgen.svg",
+    "whiteFilter": false
   },
   {
     "id": "dyad",
@@ -1197,7 +1311,9 @@
       "ai-powered",
       "pair-programming"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "dyad.svg",
+    "whiteFilter": false
   },
   {
     "id": "tempo",
@@ -1215,7 +1331,9 @@
       "ai-builder",
       "visual"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "tempo.svg",
+    "whiteFilter": false
   },
   {
     "id": "heroui-chat",
@@ -1251,7 +1369,9 @@
       "ai-powered",
       "instant"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "rocket.svg",
+    "whiteFilter": false
   },
   {
     "id": "superdesign",
@@ -1269,7 +1389,9 @@
       "ai-powered",
       "visual"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "superdesign.svg",
+    "whiteFilter": false
   },
   {
     "id": "semgrep",
@@ -1287,7 +1409,9 @@
       "sast",
       "enterprise"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "semgrep.svg",
+    "whiteFilter": false
   },
   {
     "id": "uipath",
@@ -1305,7 +1429,9 @@
       "enterprise",
       "ai-powered"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "uipath.svg",
+    "whiteFilter": false
   },
   {
     "id": "atoms",
@@ -1323,7 +1449,9 @@
       "ai-powered",
       "library"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "atoms.svg",
+    "whiteFilter": false
   },
   {
     "id": "gamma",
@@ -1378,7 +1506,9 @@
       "open-source",
       "ai-nodes"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "n8n-color.svg",
+    "whiteFilter": false
   },
   {
     "id": "character",
@@ -1398,7 +1528,9 @@
       "custom-creation",
       "voice-chat"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "character.svg",
+    "whiteFilter": false
   },
   {
     "id": "capacity",
@@ -1416,6 +1548,8 @@
       "multi-model",
       "code-ownership"
     ],
-    "status": "alive"
+    "status": "alive",
+    "icon": "capacity.svg",
+    "whiteFilter": true
   }
 ]

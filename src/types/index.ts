@@ -15,6 +15,8 @@ export interface Lab {
   focus: string[];
   tier: 1 | 2 | 3;
   chat?: string;
+  icon?: string;
+  whiteFilter?: boolean;
 }
 
 export interface Meta {
@@ -46,6 +48,8 @@ export interface Provider {
   pricing: string;
   features: string[];
   status?: "alive" | "dead" | "beta" | "merged";
+  icon?: string;
+  whiteFilter?: boolean;
 }
 
 export interface App {
@@ -69,6 +73,8 @@ export interface App {
   pricing: string;
   features: string[];
   status?: "alive" | "dead" | "beta" | "merged";
+  icon?: string;
+  whiteFilter?: boolean;
 }
 
 export interface Protocol {

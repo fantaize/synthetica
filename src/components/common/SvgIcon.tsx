@@ -1,11 +1,14 @@
-import { WHITE_FILTER_ICONS } from "../../constants/icons";
-
 interface SvgIconProps {
   name: string;
   size?: number;
+  whiteFilter?: boolean;
 }
 
-export const SvgIcon: React.FC<SvgIconProps> = ({ name, size = 24 }) => (
+export const SvgIcon: React.FC<SvgIconProps> = ({
+  name,
+  size = 24,
+  whiteFilter = false,
+}) => (
   <img
     src={new URL(`../../icons/${name}`, import.meta.url).href}
     alt=""
@@ -13,9 +16,7 @@ export const SvgIcon: React.FC<SvgIconProps> = ({ name, size = 24 }) => (
     height={size}
     style={{
       objectFit: "contain",
-      filter: WHITE_FILTER_ICONS.has(name)
-        ? "brightness(0) invert(1)"
-        : undefined,
+      filter: whiteFilter ? "brightness(0) invert(1)" : undefined,
     }}
   />
 );

@@ -1,7 +1,6 @@
 import { useState, useMemo } from "react";
 import { Search } from "lucide-react";
 import type { Provider } from "../types";
-import { PROVIDER_ICON_FILES } from "../constants/icons";
 import { SvgIcon } from "../components/common";
 
 interface ProvidersTabProps {
@@ -82,17 +81,15 @@ export const ProvidersTab: React.FC<ProvidersTabProps> = ({ providers }) => {
               {CATEGORY_LABELS[category]}
             </h3>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-px bg-zinc-800">
-              {categoryProviders.map((provider) => {
-                const iconFile = PROVIDER_ICON_FILES[provider.id];
-                return (
+              {categoryProviders.map((provider) => (
                   <div
                     key={provider.id}
                     className="bg-zinc-900 p-4 hover:bg-zinc-800/50 transition-colors"
                   >
                     <div className="flex items-start gap-3">
-                      {iconFile && (
+                      {provider.icon && (
                         <div className="w-8 h-8 bg-zinc-800 p-1.5 shrink-0 flex items-center justify-center">
-                          <SvgIcon name={iconFile} size={20} />
+                          <SvgIcon name={provider.icon} size={20} whiteFilter={provider.whiteFilter} />
                         </div>
                       )}
                       <div className="flex-1 min-w-0">
@@ -173,8 +170,8 @@ export const ProvidersTab: React.FC<ProvidersTabProps> = ({ providers }) => {
                       </a>
                     </div>
                   </div>
-                );
-              })}
+                ))}
+
             </div>
           </div>
         );
