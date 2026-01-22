@@ -67,7 +67,7 @@
     "features": ["ai-native", "modern-ui", "code-generation", "chat"],
     "status": "alive",
     "icon": "kiro.svg",
-    "whiteFilter": false
+    "whiteFilter": true
   },
   {
     "id": "pear",
