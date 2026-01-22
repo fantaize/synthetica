@@ -38,10 +38,10 @@
     "modelFamilies": ["Claude"],
     "notableModels": [
       "Claude Opus 4.5",
-      "Claude 4.5 Sonnet",
-      "Claude 4.5 Haiku",
-      "Claude 4.1 Opus",
-      "Claude 3.7 Sonnet"
+      "Claude Sonnet 4.5",
+      "Claude Haiku 4.5",
+      "Claude Opus 4.1",
+      "Claude Sonnet 3.7"
     ],
     "openSource": false,
     "apiAvailable": true,
@@ -77,7 +77,7 @@
     "apiAvailable": true,
     "focus": ["multimodal", "reasoning", "long-context", "efficiency"],
     "tier": 1,
-    "icon": "gemini-color.svg",
+    "icon": "deepmind-color.svg",
     "whiteFilter": false
   },
   {
@@ -1090,7 +1090,12 @@
     "modelsPage": "https://huggingface.co/deepcogito",
     "flagship": "Cogito 671B",
     "modelFamilies": ["Cogito"],
-    "notableModels": ["Cogito 671B", "Cogito 405B", "Cogito 109B", "Cogito 70B"],
+    "notableModels": [
+      "Cogito 671B",
+      "Cogito 405B",
+      "Cogito 109B",
+      "Cogito 70B"
+    ],
     "openSource": true,
     "apiAvailable": false,
     "focus": ["reasoning", "open-source"],

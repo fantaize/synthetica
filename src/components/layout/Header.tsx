@@ -1,3 +1,4 @@
+import { Github } from "lucide-react";
 import type { Meta } from "../../types";
 
 export type TabType =
@@ -33,7 +34,7 @@ export const Header: React.FC<HeaderProps> = ({
       </div>
 
       {/* Tabs */}
-      <div className="flex gap-1 mt-6">
+      <div className="flex gap-1 mt-6 items-center">
         {(
           [
             "overview",
@@ -56,6 +57,15 @@ export const Header: React.FC<HeaderProps> = ({
             {tab}
           </button>
         ))}
+        <a
+          href="https://github.com/fantaize/synthetica"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="ml-auto p-2 text-zinc-500 hover:text-zinc-300 transition-colors"
+          title="View on GitHub"
+        >
+          <Github className="w-5 h-5" />
+        </a>
       </div>
     </div>
   </header>

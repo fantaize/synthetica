@@ -619,7 +619,7 @@
     "website": "https://sambanova.ai",
     "apiDocs": "https://community.sambanova.ai/docs",
     "modelsAvailable": 20,
-    "pricing": "subscription",
+    "pricing": "pay-per-use",
     "features": [
       "custom-hardware",
       "enterprise",
@@ -738,7 +738,7 @@
     "website": "https://streamlake.ai",
     "apiDocs": "https://www.streamlake.ai/document",
     "modelsAvailable": 5,
-    "pricing": "pay-per-use",
+    "pricing": "subscription",
     "features": [
       "kat-models",
       "claude-compatible",

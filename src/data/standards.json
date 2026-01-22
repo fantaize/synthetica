@@ -76,17 +76,6 @@
     "features": ["payments", "agent-commerce", "a2a-extension", "interoperable"]
   },
   {
-    "id": "a2a-x402",
-    "name": "A2A x402 Extension",
-    "acronym": null,
-    "description": "Brings cryptocurrency payments to A2A protocol, enabling agents to monetize services through on-chain payments. Revives HTTP 402 for decentralized agent ecosystem.",
-    "organization": "Google",
-    "website": "https://github.com/google-agentic-commerce/a2a-x402",
-    "github": "https://github.com/google-agentic-commerce/a2a-x402",
-    "docs": "https://github.com/google-agentic-commerce/a2a-x402",
-    "features": ["crypto-payments", "http-402", "on-chain", "monetization"]
-  },
-  {
     "id": "xaa",
     "name": "Cross App Access",
     "acronym": "XAA",
@@ -121,17 +110,6 @@
     "features": ["event-based", "user-interface", "real-time", "lightweight"]
   },
   {
-    "id": "agents-json",
-    "name": "agents.json",
-    "acronym": null,
-    "description": "Open-source JSON specification defining machine-readable contracts for API and AI agent interactions on top of OpenAPI. Adds LLM-optimized schemas and tool directives.",
-    "organization": "Wild Card",
-    "website": "https://docs.wild-card.ai/agentsjson/introduction",
-    "github": null,
-    "docs": "https://docs.wild-card.ai/agentsjson/introduction",
-    "features": ["openapi", "json-spec", "tool-directives", "stateless"]
-  },
-  {
     "id": "llms-txt",
     "name": "llms.txt",
     "acronym": null,
@@ -152,54 +130,5 @@
     "github": null,
     "docs": "https://www.agentcommercekit.com",
     "features": ["commerce", "identity", "payments", "w3c-dids"]
-  },
-  {
-    "id": "agp",
-    "name": "Agent Gateway Protocol",
-    "acronym": "AGP",
-    "description": "High-performance messaging and routing layer for agent meshes with channel-based addressing and connection tables. Emphasizes mTLS, RBAC, encryption, and observability.",
-    "organization": "Community",
-    "website": null,
-    "github": null,
-    "docs": null,
-    "features": ["messaging", "routing", "agent-mesh", "security"]
-  },
-  {
-    "id": "agent-protocol",
-    "name": "Agent Protocol",
-    "acronym": "AP",
-    "description": "REST+OpenAPI spec where every agent exposes standard endpoints like POST /ap/v1/agent/tasks. Enables registries and orchestration to interact with heterogeneous agents.",
-    "organization": "AGI Inc.",
-    "website": null,
-    "github": null,
-    "docs": null,
-    "features": [
-      "rest-api",
-      "openapi",
-      "standardized-endpoints",
-      "orchestration"
-    ]
-  },
-  {
-    "id": "nanda",
-    "name": "NANDA",
-    "acronym": "NANDA",
-    "description": "Networked Agents and Decentralized AI. Decentralized registry model mapping agent IDs to cryptographically verifiable AgentFacts for distributed discovery and verification.",
-    "organization": "Community",
-    "website": null,
-    "github": null,
-    "docs": null,
-    "features": ["decentralized", "registry", "cryptographic", "discovery"]
-  },
-  {
-    "id": "a2a-registry",
-    "name": "A2A Registry",
-    "acronym": null,
-    "description": "Registry for A2A-compatible agents with registration, discovery, namespaces, and version management. Uses Agent Cards (JSON schemas) describing capabilities and endpoints.",
-    "organization": "Nacos / Community",
-    "website": null,
-    "github": null,
-    "docs": null,
-    "features": ["registry", "discovery", "agent-cards", "namespaces"]
   }
 ]

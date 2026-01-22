@@ -1,7 +1,7 @@
 {
   "title": "SYNTHETICA.WIKI",
-  "description": "A comprehensive database of AI research labs focused on large language models",
-  "version": "1.0.0",
+  "description": "A comprehensive database of AI research labs, inference providers, apps, and protocols focused on large language models",
+  "version": "0.1.0",
   "lastUpdated": "2026-01-20",
-  "source": "Artificial Analysis + supplementary research"
+  "source": "Artificial Analysis + random web search"
 }
