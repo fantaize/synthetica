@@ -67,7 +67,8 @@ export interface App {
     | "web"
     | "plugin"
     | "physical"
-    | "agent";
+    | "agent"
+    | "web-builder";
   platform: string[];
   website: string;
   pricing: string;
