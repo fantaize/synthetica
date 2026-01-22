@@ -1,7 +1,7 @@
 {
-  "name": "llm-labs-dashboard",
+  "name": "synthetica",
   "private": true,
-  "version": "1.0.0",
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
