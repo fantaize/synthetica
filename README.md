@@ -10,14 +10,6 @@ A comprehensive dashboard and database tracking the AI/LLM ecosystem, including 
 - **Protocols** - Standards and specifications in the AI ecosystem
 - **Analytics** - Visual breakdowns by tier, geography, open-source status, and focus areas
 
-## Tech Stack
-
-- React 18
-- TypeScript
-- Vite
-- Tailwind CSS
-- Recharts
-
 ## Getting Started
 
 ```bash
