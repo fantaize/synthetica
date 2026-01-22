@@ -35,3 +35,7 @@ npm run preview
 ## Data
 
 All data is stored as JSON in `src/data/` and can be updated independently of the application code.
+
+## Helpers wanted!
+
+As a lot of this data is scraped through random search with AI, a lot of it is inaccurate, eventually I want this project to have proper descriptions for all cards
