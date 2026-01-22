@@ -37,6 +37,7 @@ export const WHITE_FILTER_ICONS = new Set([
   "windsurf.svg",
   "agentzero.svg",
   "capacity.svg",
+  "parallel.svg",
 ]);
 
 // Icon file mappings for lab IDs
@@ -99,7 +100,6 @@ export const LAB_ICON_FILES: Record<string, string> = {
 // Icon file mappings for provider IDs
 export const PROVIDER_ICON_FILES: Record<string, string> = {
   openrouter: "openrouter.svg",
-  switchpoint: "switchpoint.svg",
   together: "together-color.svg",
   fireworks: "fireworks-color.svg",
   groq: "groq.svg",
@@ -125,7 +125,6 @@ export const PROVIDER_ICON_FILES: Record<string, string> = {
   "azure-ai": "azureai-color.svg",
   "nvidia-nim": "nvidia-color.svg",
   lepton: "leptonai-color.svg",
-  modal: "lambda.svg",
   "huggingface-inference": "huggingface-color.svg",
   sambanova: "sambanova-color.svg",
   ollama: "ollama.svg",
@@ -169,7 +168,6 @@ export const APP_ICON_FILES: Record<string, string> = {
   // Browsers
   "chatgpt-atlas": "openai.svg",
   dia: "dia.svg",
-  genspark: "genspark.svg",
   "edge-copilot": "bing-color.svg",
   "opera-neon": "opera.svg",
   sigma: "sigma.svg",
@@ -212,7 +210,6 @@ export const APP_ICON_FILES: Record<string, string> = {
   semgrep: "semgrep.svg",
   uipath: "uipath.svg",
   atoms: "atoms.svg",
-  trickle: "trickle.svg",
   n8n: "n8n-color.svg",
   character: "character.svg",
 };

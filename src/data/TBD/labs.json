@@ -57,5 +57,25 @@
     "apiAvailable": true,
     "focus": ["korean-language", "enterprise", "reasoning"],
     "tier": 3
+  },
+  {
+    "id": "huggingface",
+    "name": "Hugging Face",
+    "description": "AI company and platform hosting open-source models, datasets, and providing inference services.",
+    "headquarters": {
+      "city": "New York",
+      "country": "USA"
+    },
+    "founded": 2016,
+    "website": "https://huggingface.co",
+    "chat": "https://huggingface.co/chat",
+    "modelsPage": "https://huggingface.co/models",
+    "flagship": "HuggingChat",
+    "modelFamilies": ["HuggingChat"],
+    "notableModels": ["HuggingChat"],
+    "openSource": true,
+    "apiAvailable": true,
+    "focus": ["open-source", "model-hosting", "community"],
+    "tier": 2
   }
 ]
