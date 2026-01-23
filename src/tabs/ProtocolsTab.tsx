@@ -6,7 +6,7 @@ interface ProtocolsTabProps {
 
 export const ProtocolsTab: React.FC<ProtocolsTabProps> = ({ protocols }) => {
   return (
-    <div className="bg-zinc-900 border border-zinc-800 p-6 mb-6">
+    <div className="bg-zinc-900 border border-zinc-800 p-4 sm:p-6 mb-6">
       <h3 className="text-xs font-medium text-zinc-500 uppercase tracking-wider mb-6">
         AI Protocols & Standards
       </h3>

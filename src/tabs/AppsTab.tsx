@@ -56,7 +56,7 @@ export const AppsTab: React.FC<AppsTabProps> = ({ apps }) => {
       {/* Search */}
       <div className="bg-zinc-900 border border-zinc-800 p-4 mb-6">
         <div className="flex items-center gap-4">
-          <div className="flex-1 min-w-64">
+          <div className="flex-1 min-w-0">
             <div className="relative">
               <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-zinc-600" />
               <input
@@ -83,7 +83,7 @@ export const AppsTab: React.FC<AppsTabProps> = ({ apps }) => {
         return (
           <div
             key={category}
-            className="bg-zinc-900 border border-zinc-800 p-6 mb-6"
+            className="bg-zinc-900 border border-zinc-800 p-4 sm:p-6 mb-6"
           >
             <h3 className="text-xs font-medium text-zinc-500 uppercase tracking-wider mb-6">
               {CATEGORY_LABELS[category]}

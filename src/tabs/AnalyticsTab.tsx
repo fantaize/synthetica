@@ -33,7 +33,7 @@ export const AnalyticsTab: React.FC<AnalyticsTabProps> = ({ stats, labs }) => {
   return (
     <>
       {/* Focus Areas */}
-      <div className="bg-zinc-900 border border-zinc-800 p-6 mb-6">
+      <div className="bg-zinc-900 border border-zinc-800 p-4 sm:p-6 mb-6">
         <h3 className="text-xs font-medium text-zinc-500 uppercase tracking-wider mb-6">
           Focus Areas
         </h3>
@@ -59,7 +59,7 @@ export const AnalyticsTab: React.FC<AnalyticsTabProps> = ({ stats, labs }) => {
       </div>
 
       {/* Geographic Distribution */}
-      <div className="bg-zinc-900 border border-zinc-800 p-6 mb-6">
+      <div className="bg-zinc-900 border border-zinc-800 p-4 sm:p-6 mb-6">
         <h3 className="text-xs font-medium text-zinc-500 uppercase tracking-wider mb-6">
           Geographic Distribution
         </h3>
@@ -95,7 +95,7 @@ export const AnalyticsTab: React.FC<AnalyticsTabProps> = ({ stats, labs }) => {
 
       {/* Stats Breakdown */}
       <div className="grid md:grid-cols-2 gap-px bg-zinc-800">
-        <div className="bg-zinc-900 p-6">
+        <div className="bg-zinc-900 p-4 sm:p-6">
           <h3 className="text-xs font-medium text-zinc-500 uppercase tracking-wider mb-6">
             API Availability
           </h3>
@@ -135,7 +135,7 @@ export const AnalyticsTab: React.FC<AnalyticsTabProps> = ({ stats, labs }) => {
           </div>
         </div>
 
-        <div className="bg-zinc-900 p-6">
+        <div className="bg-zinc-900 p-4 sm:p-6">
           <h3 className="text-xs font-medium text-zinc-500 uppercase tracking-wider mb-6">
             Open Source Breakdown
           </h3>

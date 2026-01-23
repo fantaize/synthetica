@@ -19,7 +19,7 @@ export const LabCard: React.FC<LabCardProps> = ({ lab, onClick }) => {
 
   return (
     <div
-      className="bg-zinc-900 border border-zinc-800 hover:border-zinc-700 transition-colors cursor-pointer"
+      className="bg-zinc-900 border border-zinc-800 hover:border-zinc-700 transition-colors cursor-pointer overflow-hidden"
       onClick={onClick}
     >
       <div className="p-4">
@@ -60,11 +60,11 @@ export const LabCard: React.FC<LabCardProps> = ({ lab, onClick }) => {
         </div>
 
         <div className="mt-4 flex flex-wrap items-center gap-x-6 gap-y-2 text-xs">
-          <div>
+          <div className="min-w-0">
             <p className="text-zinc-600 uppercase tracking-wider text-[10px]">
               Flagship
             </p>
-            <p className="text-zinc-300 mt-0.5">{lab.flagship}</p>
+            <p className="text-zinc-300 mt-0.5 truncate">{lab.flagship}</p>
           </div>
           {lab.founded && (
             <div>

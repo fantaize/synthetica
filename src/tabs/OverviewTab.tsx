@@ -86,7 +86,7 @@ export const OverviewTab: React.FC<OverviewTabProps> = ({
 
       {/* Charts Row */}
       <div className="grid md:grid-cols-3 gap-px bg-zinc-800 mb-8">
-        <div className="bg-zinc-900 p-6">
+        <div className="bg-zinc-900 p-4 sm:p-6">
           <h3 className="text-xs font-medium text-zinc-500 uppercase tracking-wider mb-6">
             Distribution by Tier
           </h3>
@@ -125,7 +125,7 @@ export const OverviewTab: React.FC<OverviewTabProps> = ({
           </div>
         </div>
 
-        <div className="bg-zinc-900 p-6">
+        <div className="bg-zinc-900 p-4 sm:p-6">
           <h3 className="text-xs font-medium text-zinc-500 uppercase tracking-wider mb-6">
             Open Source Status
           </h3>
@@ -164,7 +164,7 @@ export const OverviewTab: React.FC<OverviewTabProps> = ({
           </div>
         </div>
 
-        <div className="bg-zinc-900 p-6">
+        <div className="bg-zinc-900 p-4 sm:p-6">
           <h3 className="text-xs font-medium text-zinc-500 uppercase tracking-wider mb-6">
             By Country
           </h3>
@@ -195,7 +195,7 @@ export const OverviewTab: React.FC<OverviewTabProps> = ({
       </div>
 
       {/* Tier 1 Labs */}
-      <div className="bg-zinc-900 border border-zinc-800 p-6">
+      <div className="bg-zinc-900 border border-zinc-800 p-4 sm:p-6">
         <h3 className="text-xs font-medium text-zinc-500 uppercase tracking-wider mb-6">
           Tier 1 — Frontier Labs
         </h3>

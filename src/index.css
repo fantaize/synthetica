@@ -4,6 +4,7 @@
 
 html, body {
   background-color: #09090b; /* zinc-950 */
+  overflow-x: hidden;
 }
 
 .scrollbar-hide {

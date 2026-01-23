@@ -48,7 +48,7 @@ export const LabsTab: React.FC<LabsTabProps> = ({ labs, onLabClick }) => {
       </div>
 
       {/* Tier 1 Labs */}
-      <div className="bg-zinc-900 border border-zinc-800 p-6 mb-6">
+      <div className="bg-zinc-900 border border-zinc-800 p-4 sm:p-6 mb-6 overflow-hidden">
         <h3 className="text-xs font-medium text-zinc-500 uppercase tracking-wider mb-6">
           Tier 1 — Frontier Labs
         </h3>
@@ -66,7 +66,7 @@ export const LabsTab: React.FC<LabsTabProps> = ({ labs, onLabClick }) => {
       </div>
 
       {/* Tier 2 Labs */}
-      <div className="bg-zinc-900 border border-zinc-800 p-6 mb-6">
+      <div className="bg-zinc-900 border border-zinc-800 p-4 sm:p-6 mb-6 overflow-hidden">
         <h3 className="text-xs font-medium text-zinc-500 uppercase tracking-wider mb-6">
           Tier 2 — Major Labs
         </h3>
@@ -84,7 +84,7 @@ export const LabsTab: React.FC<LabsTabProps> = ({ labs, onLabClick }) => {
       </div>
 
       {/* Tier 3 Labs */}
-      <div className="bg-zinc-900 border border-zinc-800 p-6 mb-6">
+      <div className="bg-zinc-900 border border-zinc-800 p-4 sm:p-6 mb-6 overflow-hidden">
         <h3 className="text-xs font-medium text-zinc-500 uppercase tracking-wider mb-6">
           Tier 3 — Emerging & Specialized Labs
         </h3>
