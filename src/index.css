@@ -5,3 +5,12 @@
 html, body {
   background-color: #09090b; /* zinc-950 */
 }
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
