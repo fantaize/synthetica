@@ -59,7 +59,7 @@ export const LabCard: React.FC<LabCardProps> = ({ lab, onClick }) => {
           </div>
         </div>
 
-        <div className="mt-4 flex items-center gap-6 text-xs">
+        <div className="mt-4 flex flex-wrap items-center gap-x-6 gap-y-2 text-xs">
           <div>
             <p className="text-zinc-600 uppercase tracking-wider text-[10px]">
               Flagship
@@ -91,7 +91,7 @@ export const LabCard: React.FC<LabCardProps> = ({ lab, onClick }) => {
               target="_blank"
               rel="noopener noreferrer"
               onClick={(e) => e.stopPropagation()}
-              className="ml-auto flex items-center gap-1.5 px-3 py-1.5 bg-zinc-100 hover:bg-white text-zinc-900 text-[11px] font-medium uppercase tracking-wider transition-colors"
+              className="sm:ml-auto flex items-center gap-1.5 px-3 py-1.5 bg-zinc-100 hover:bg-white text-zinc-900 text-[11px] font-medium uppercase tracking-wider transition-colors"
             >
               <MessageCircle className="w-3 h-3" />
               Try it
